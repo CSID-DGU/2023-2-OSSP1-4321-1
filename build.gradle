@@ -31,7 +31,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 	/* firebase 개발 환경 설정*/
-	implementation 'com.google.firebase:firebase-admin:7.1.1'
+	implementation 'com.google.firebase:firebase-admin:9.1.1'
 
 	/* DevTool 의존성 주입*/
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
@@ -51,6 +51,8 @@ dependencies {
 	/* GMAIL 보내기 */
 	implementation 'org.springframework.boot:spring-boot-starter-mail'
 	implementation fileTree(dir: 'libs', include: '*.jar')
+
+	implementation 'org.apache.commons:commons-csv:1.10.0' //Csv combine 하는 데에 필요
 
 }
 /* JUnit 5 */
