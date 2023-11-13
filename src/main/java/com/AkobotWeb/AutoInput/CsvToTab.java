@@ -138,6 +138,7 @@ public class CsvToTab {
 
         for (String row : rows) {
             // 어떻게 할지는 모르겠지만 아무튼,서류를 분류하도록 해서(아마 문자열 match로 일일히 하는 방법 뿐인 듯)
+            // contents 부분을 읽어서 탐색하도록 하는 방법도 있을 듯?
             // FIXME: 챕터명등의 케이스에 따라 Division 수행
             switch (Division.match()) {
                 case 1:

@@ -24,7 +24,9 @@ class UniversitySystem {
         this.recruitments = new HashMap<>();
     }
 
-    // Methods for adding and getting objects of each entity
+
+    // 데이터 매핑을 위한 리스트
+    //FIXME: 추가해야함, 데이터 구조 나오면 추가
 
     // Collegue 메소드
     public void addCollegue(College college) {
@@ -78,15 +80,12 @@ class UniversitySystem {
 public class Division {
 
 
-    // 데이터 매핑을 위한 리스트 초기화
-    //FIXME: 추가해야함, 데이터 구조 나오면 추가
-
     // division 종류를 나누는 static 함수
     // FIXME: 추가해야함. 회의 필요
     public static int match(){
-    if("어떤 키워드" == "")return 0;
-    else if("어떤 조건" =="" )return 0;
-    else return 0;
+    if("어떤 키워드" == "")return 0; //
+    else if("어떤 조건" =="" )return 1; // 학생부종합전형 키워드 발견 + 어떤 조건
+    else return 3;
 
     }
 
@@ -96,7 +95,7 @@ public class Division {
         String[] rows = csvContent.split("\n");
 
         for (String row : rows) {
-            String[] values = row.split(",");//
+                String[] values = row.split(",");//
 
             String collegeName = values[0];  // 단과대학
             String divisionName = values[1];  // 모집단위
@@ -104,7 +103,7 @@ public class Division {
 
             // 단과대학이 처음 추가될 때만 id 생성
             if (!colleges.containsKey(collegeName)) {
-                String collegeID = generateUniqueID(); // 새로운 id 생성 메서드 필요
+                String collegeID = UniversitySystem.generateID(); // 새로운 id 생성 메서드 필요
                 College college = new College(collegeID, collegeName, values[3]);  // 캠퍼스
                 colleges.put(collegeName, college);
                 collegeDivisions.put(collegeID, new LinkedList<>());
