@@ -10,6 +10,8 @@ import json
 usr_input = sys.argv[1]
 
 # reading the data from the file
+# 아래 여러줄 주석 처리된 intents의 목록이 db.txt에 저장되어있음
+#TODO: 아래 코드를 참고해서 json 파일로 저장해놓으신 부분 txt로 저장하고 처리할 수 있도록 하면 될 것 같습니다.
 with open("./Akobot/src/main/resources/chatbot/db.txt",encoding="utf-8") as f:
 #with open("./src/main/resources/chatbot/db.txt",encoding="utf-8") as f:
     db = f.read()
@@ -91,6 +93,11 @@ for user_keyword in extracting.keywords: # extracted keywords from user input
             matchings.append(intents[intent_keyword]) 
             break
 '''
+#TODO: 이후 제가 extracting 과정에서 scoring 부분에서 user_keyword를 추출과정 수정할테니,
+#['수시','논술전형','에대해서','알려줘']<< 이런식으로 반환되도록할 것 같습니다.
+#일단 extractKeywords 함수가 여기에 있어서 주석과 todo를 여기에 작성했는데요, 별도의 파일을 만들어도 해당 파일이 preprocessing java 클래스 부분으로 넘어가도록 해주세요.
+#TODO: user_keyword 각각에서 유사도 측정이 이루어질 수 있도록 하면 좋을 것 같습니다.
+#fallback이 나타나지 않은 모든 intent에 대하여 키를 얻어서, 키에대한 [db명,id]를 반환하도록 해 주시면 될 것 같습니다.
 
 for user_keyword in extracting.extracKeywords(usr_input): # extracted keywords from user input
     for intent_keyword in intent_keywords: # intent list from DB

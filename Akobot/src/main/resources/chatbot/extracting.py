@@ -28,6 +28,6 @@ def extracKeywords(usr_input):
 
     # 사용자 입력 확인용 (제거 예정)
     # print("사용자 입력>>","정시랑 논술전형 어때?")
-    # rint("토크나이징 결과>>",keywords)
+    # print("토크나이징 결과>>",keywords)
 
     return keywords
