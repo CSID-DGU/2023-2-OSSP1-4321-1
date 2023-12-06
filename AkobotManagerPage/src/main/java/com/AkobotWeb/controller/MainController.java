@@ -18,12 +18,12 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
 import java.net.HttpURLConnection;
+import java.util.HashMap;
+import java.util.Map;
 
 @Slf4j
 @RequiredArgsConstructor
@@ -42,26 +42,50 @@ public class MainController {
     public String firstpage() {
         return "firstpage";
     }
+
+
+
+    @CrossOrigin(origins = "http://localhost:8080", methods = {RequestMethod.POST, RequestMethod.OPTIONS})
+    @PostMapping("/")
+    @ResponseBody
+    public Map<String, Object> checkpwd(@RequestBody Map<String, Object> requestBody) {
+        Map<String, Object> response = new HashMap<>();
+
+        String receivedPassword = (String) requestBody.get("pwd");
+        String storedPassword = "980930";
+
+        if (receivedPassword.equals(storedPassword)) {
+            response.put("success", true);
+        } else {
+            response.put("success", false);
+        }
+
+        return response;
+    }
+
+
+
+
     //public String index(Model model){
-      //  SessionUser user = (SessionUser) httpSession.getAttribute("user");
-        //if(user != null){
-          //  model.addAttribute("userName",user.getName());
-            //model.addAttribute("userImg",user.getPicture());
-        //}
-        //return "index";
+    //  SessionUser user = (SessionUser) httpSession.getAttribute("user");
+    //if(user != null){
+    //  model.addAttribute("userName",user.getName());
+    //model.addAttribute("userImg",user.getPicture());
+    //}
+    //return "index";
 
     /**
-    *   중복코드 최소화 하는 방법이지만, NULL EXCEPTION 이 일어남..
-    public String index(Model model, @LoginUser SessionUser user) {
-        // .............
-        // 사용자 정보: 위의 @LoginUser 어노테이션으로 대체
-        // SessionUser user = (SessionUser) httpSession.getAttribute("user");
-        if(user != null) {
-            model.addAttribute("userName", user.getName());
-            model.addAttribute("userImg", user.getPicture());
-        }
-        return "index";
-    }*/
+     *   중복코드 최소화 하는 방법이지만, NULL EXCEPTION 이 일어남..
+     public String index(Model model, @LoginUser SessionUser user) {
+     // .............
+     // 사용자 정보: 위의 @LoginUser 어노테이션으로 대체
+     // SessionUser user = (SessionUser) httpSession.getAttribute("user");
+     if(user != null) {
+     model.addAttribute("userName", user.getName());
+     model.addAttribute("userImg", user.getPicture());
+     }
+     return "index";
+     }*/
 
     /*일단은 /home 요청해서 view 읽도록 함 -> index.html을 기본으로 */
     @GetMapping("/home")
@@ -198,7 +222,7 @@ public class MainController {
         //return "dongguk";
         return "http://localhost:8090/";
     }
-    
+
     /* 챗봇 구현을 위한 API*/
     /**
      * URL: /chatbot
@@ -208,15 +232,15 @@ public class MainController {
      만약 fallback이 발생한 경우, 레벨은 변화 없음.
      * request
      request{
-         "query_input": {
-         "text": {
-         "text": {input_text},
-         "language_code: {language_code}
+     "query_input": {
+     "text": {
+     "text": {input_text},
+     "language_code: {language_code}
      }
      }
      * response
      response{
-         "says": [{text}, ...]
+     "says": [{text}, ...]
      }
      * return "chatbot"
      * */
