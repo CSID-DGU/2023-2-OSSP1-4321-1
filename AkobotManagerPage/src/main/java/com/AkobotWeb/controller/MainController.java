@@ -63,30 +63,6 @@ public class MainController {
         return response;
     }
 
-
-
-
-    //public String index(Model model){
-    //  SessionUser user = (SessionUser) httpSession.getAttribute("user");
-    //if(user != null){
-    //  model.addAttribute("userName",user.getName());
-    //model.addAttribute("userImg",user.getPicture());
-    //}
-    //return "index";
-
-    /**
-     *   중복코드 최소화 하는 방법이지만, NULL EXCEPTION 이 일어남..
-     public String index(Model model, @LoginUser SessionUser user) {
-     // .............
-     // 사용자 정보: 위의 @LoginUser 어노테이션으로 대체
-     // SessionUser user = (SessionUser) httpSession.getAttribute("user");
-     if(user != null) {
-     model.addAttribute("userName", user.getName());
-     model.addAttribute("userImg", user.getPicture());
-     }
-     return "index";
-     }*/
-
     /*일단은 /home 요청해서 view 읽도록 함 -> index.html을 기본으로 */
     @GetMapping("/home")
     public String home() {
