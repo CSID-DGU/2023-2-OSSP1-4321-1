@@ -31,14 +31,29 @@
     <button class="openBtn" onclick="javascript:checkpwd()">접속</button>
     <script>
         function checkpwd(){
-            if(document.getElementById('pwd').value != '980930'){
-                alert("암호가 틀립니다!!")
-                document.getElementById("pwd").value = '';
-            }
-            else{
-                alert("암호가 맞습니다!!")
-                location.href = "index";
-            }
+            const pwd = document.getElementById('pwd').value;
+
+            const xhr = new XMLHttpRequest();
+
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        var response = JSON.parse(xhr.responseText);
+
+                        if (response.success) {
+                            alert("암호가 맞습니다!!");
+                            location.href = "index";
+                        } else {
+                            alert("암호가 틀립니다!!");
+                            document.getElementById("pwd").value = '';
+                        }
+                    }
+                }
+            };
+
+            xhr.open("POST", "http://localhost:8080/", true);
+            xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+            xhr.send(JSON.stringify({ pwd: pwd }));
         }
     </script>
 </div>
