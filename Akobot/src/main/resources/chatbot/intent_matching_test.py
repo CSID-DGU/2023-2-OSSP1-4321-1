@@ -27,8 +27,11 @@ with open('./src/intents.p', 'rb') as file:
 # csv reader
 with open(testFile, 'r', encoding='utf-8') as f:
     rdr = csv.reader(f)
-
     start = time.time()
+    output = ""
+
+    # line[0]: 테스트 문장
+    # line[1]: 입력 테스트 문장의 인탠트
     for line in rdr:
         inputStr = model.encode(line[0])
         max_similarity = -1
@@ -45,11 +48,19 @@ with open(testFile, 'r', encoding='utf-8') as f:
         else:
             result = "pass"
             success += 1
-        print(result, ", ", max_similarity[0][0], ", ", line[1], ", " + matched_intent, ", ", line[0], sep="")
-
-    start = time.time() - start
+        output += "\"{0}\", {1}, {2}, {3}, {4}\n".format(line[0], line[1], matched_intent, result, max_similarity[0][0])
+    print(output)
+    end_time = time.time()
+    test_time = end_time - start
 
     print("******************************")
+    print("실행시간: {0}초".format(test_time))
     print("pass: ", success)
     print("fail: ", fail)
-    print("실행시간: ", start)
+    print("success rate: ", success / (success + fail))
+    print("실행결과: test_result.csv")
+
+    with open("test_result.csv", 'w', encoding='utf-8') as o:
+        o.write(output)
+        o.close()
+    f.close()
