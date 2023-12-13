@@ -60,7 +60,7 @@ with open(testFile, 'r', encoding='utf-8') as f:
     print("success rate: ", success / (success + fail))
     print("실행결과: test_result.csv")
 
-    with open("../../../../../test/test_result.csv", 'w', encoding='utf-8') as o:
+    with open("test_result.csv", 'w', encoding='utf-8') as o:
         o.write(output)
         o.close()
     f.close()
