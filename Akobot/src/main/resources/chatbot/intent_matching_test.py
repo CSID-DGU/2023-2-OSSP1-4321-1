@@ -5,8 +5,6 @@
 
 import csv
 import pickle
-import pickle
-import pandas as pd
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 model = SentenceTransformer('jhgan/ko-sroberta-multitask')
@@ -15,13 +13,14 @@ import time
 
 # 테스트 케이스는 csv 확장자 형태여야 함
 # 테스트 케이스 입력 형식은 다음과 같음
+# <입력문장, 인탠트>
 testFile = input("테스트할 파일을 입력해주세요: ")
 
 success = 0
 fail = 0
 
 # embedded intent reader
-with open('./src/intents.p', 'rb') as file:
+with open('./intents.p', 'rb') as file:
     intents = pickle.load(file)
 
 # csv reader
@@ -48,6 +47,7 @@ with open(testFile, 'r', encoding='utf-8') as f:
         else:
             result = "pass"
             success += 1
+        # 결과: <입력, 인탠트, 매칭된 인탠트, 통과여부, 유사도>
         output += "\"{0}\", {1}, {2}, {3}, {4}\n".format(line[0], line[1], matched_intent, result, max_similarity[0][0])
     print(output)
     end_time = time.time()
@@ -60,7 +60,7 @@ with open(testFile, 'r', encoding='utf-8') as f:
     print("success rate: ", success / (success + fail))
     print("실행결과: test_result.csv")
 
-    with open("test_result.csv", 'w', encoding='utf-8') as o:
+    with open("../../../../../test/test_result.csv", 'w', encoding='utf-8') as o:
         o.write(output)
         o.close()
     f.close()
