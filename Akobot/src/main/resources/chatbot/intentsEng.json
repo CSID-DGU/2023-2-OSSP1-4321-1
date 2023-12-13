@@ -1,0 +1,142 @@
+{
+	"total": [
+		"\uc804\uccb4\ubaa8\uc9d1\uc694\uac15",
+		1
+	],
+	"earlyadmission": [
+		"\uc218\uc2dc",
+		1
+	],
+	"ksat": [
+		"\uc815\uc2dc",
+		1
+	],
+	"recruit": [
+		"\ubaa8\uc9d1\uc778\uc6d0",
+		1
+	],
+	"competition": [
+		"\uc791\ub144\ub3c4\uacbd\uc7c1\ub960",
+		1
+	],
+	"note": [
+		"\uc9c0\uc6d0\uc790\uaca9\uc720\uc758\uc0ac\ud56d",
+		1
+	],
+	"foreign": [
+		"\uc678\uad6d\uc778\ud2b9\ubcc4\uc804\ud615",
+		1
+	],
+	"test": [
+		"\uc804\ud615\uc694\uc18c\ubcc4\ud3c9\uac00\ubc29\ubc95",
+		1
+	],
+	"schedule": [
+		"\uc804\ud615\uc77c\uc815",
+		1
+	],
+	"earlyadmission_dodreamsoft": [
+		"\ub450\ub4dc\ub9bc\uc18c\ud504\ud2b8\uc6e8\uc5b4",
+		3
+	],
+	"earlyadmission_buddhism": [
+		"\ubd88\uad50\ucd94\ucc9c",
+		3
+	],
+	"earlyadmission_principal": [
+		"\ud559\uad50\uc7a5\ucd94\ucc9c",
+		3
+	],
+	"earlyadmission_essay": [
+		"\ub17c\uc220",
+		3
+	],
+	"earlyadmission_dodream": [
+		"\ub450\ub4dc\ub9bc",
+		3
+	],
+	"earlyadmission_regular": [
+		"\uace0\ub978\uae30\ud68c",
+		3
+	],
+	"earlyadmission_special": [
+		"\ud2b9\uc218\uad50\uc721\ub300\uc0c1\uc790",
+		3
+	],
+	"ksat_incumbent": [
+		"\uc7ac\uc9c1\uc790",
+		4
+	],
+	"earlyadmission_performance": [
+		"\uc2e4\uae30",
+		3
+	],
+	"ksat_normal": [
+		"\uc77c\ubc18\uc804\ud615",
+		4
+	],
+	"ksat_farming": [
+		"\ub18d\uc5b4\ucd0c\uc804\ud615",
+		4
+	],
+	"ksat_specialized": [
+		"\ud2b9\uc131\ud654\uace0\uad50",
+		4
+	],
+	"ksat_basic": [
+		"\uae30\ucd08\uc0dd\ud65c\uc218\uae09\uc790\ubc0f\ucc28\uc0c1\uc704\uacc4\uce35",
+		4
+	],
+	"competition_earlyadmission": [
+		"\uc218\uc2dc\uacbd\uc7c1\ub960",
+		6
+	],
+	"competition_ksat": [
+		"\uc815\uc2dc\uacbd\uc7c1\ub960",
+		6
+	],
+	"note_farming": [
+		"\ub18d\uc5b4\ucd0c\ud559\uc0dd\uc7ac\ud559\uac70\uc8fc\uc778\uc815\uae30\uc900",
+		7
+	],
+	"note_special": [
+		"\ud2b9\uc131\ud654\uace0\uad50\uc878\uc5c5\uc790\ub3d9\uc77c\uacc4\uc5f4\uae30\uc900\ud559\uacfc",
+		7
+	],
+	"note_incumbent": [
+		"\uc7ac\uc9c1\uae30\uac04\uc0b0\uc815\uae30\uc900",
+		7
+	],
+	"test_document": [
+		"\uc11c\ub958\uc885\ud569\ud3c9\uac00",
+		9
+	],
+	"test_interview": [
+		"\uba74\uc811\ud3c9\uac00",
+		9
+	],
+	"test_records": [
+		"\ud559\uad50\uc0dd\ud65c\uae30\ub85d\ubd80",
+		9
+	],
+	"test_SAT": [
+		"\ub300\ud559\uc218\ud559\ub2a5\ub825\uc2dc\ud5d8",
+		9
+	],
+	"schedule_foreigner": [
+		"\uc7ac\uc678\uad6d\ubbfc/\uc678\uad6d\uc778\uc77c\uc815",
+		10
+	],
+	"schedule_ksat": [
+		"\uc815\uc2dc\uc77c\uc815",
+		10
+	],
+	"schedule_earlyadmission": [
+		"\uc218\uc2dc\uc77c\uc815",
+		10
+	],
+	"fallback_default": [
+		"\uc798\ubabb\ub41c \uc785\ub825",
+		0
+	]
+}
