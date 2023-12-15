@@ -21,7 +21,7 @@ public class Preprocessor {
         // 파이썬 모듈이 이미 깔려있는데도 모듈이 없다는 식의 오류가 난다면 python 경로를 명시해주기
         // cmd에 'python -c "import sys; print(sys.executable)"' 입력하면 파이썬 설치 경로 알 수 있음
         ProcessBuilder pb = new ProcessBuilder("python",
-                "src/main/resources/chatbot/intentmatching.py", usr_input); //Akobot으로 시작하는 주소에서 src 시작으로 변경
+                "Akobot/src/main/resources/chatbot/intentmatching.py", usr_input);
                 //"src/main/resources/chatbot/intentmatching.py", usr_input);
 
         Process p = pb.start();
