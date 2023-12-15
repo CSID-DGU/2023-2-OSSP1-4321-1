@@ -18,8 +18,10 @@ public class Preprocessor {
         log.info(Paths.get("").toAbsolutePath().toString());
         log.info("USER INPUT -> " + usr_input);
 
+        // 파이썬 모듈이 이미 깔려있는데도 모듈이 없다는 식의 오류가 난다면 python 경로를 명시해주기
+        // cmd에 'python -c "import sys; print(sys.executable)"' 입력하면 파이썬 설치 경로 알 수 있음
         ProcessBuilder pb = new ProcessBuilder("python",
-                "Akobot/src/main/resources/chatbot/intentmatching.py", usr_input);
+                "src/main/resources/chatbot/intentmatching.py", usr_input); //Akobot으로 시작하는 주소에서 src 시작으로 변경
                 //"src/main/resources/chatbot/intentmatching.py", usr_input);
 
         Process p = pb.start();
@@ -29,6 +31,12 @@ public class Preprocessor {
         BufferedReader bfr = new BufferedReader(new InputStreamReader(p.getInputStream()));
         List<String> lines = new ArrayList<>();
         String line = "";
+
+        BufferedReader errorReader = new BufferedReader(new InputStreamReader(p.getErrorStream()));
+        String errorLine = "";
+        while((errorLine = errorReader.readLine()) != null){
+            log.error("Python script error: " + errorLine);
+        } // 어떤 에러 있는지 확인하려고 추가
 
         while((line = bfr.readLine()) != null){
             lines.add(line);
