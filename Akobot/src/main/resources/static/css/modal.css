@@ -49,6 +49,8 @@
     cursor: pointer;
     text-shadow: 1px 1px 2px gray;
     color: white;
+    position: relative;
+    z-index: 15000; /* Close 버튼을 맨 앞으로 두기 */
 }
 
 #modal .content {
