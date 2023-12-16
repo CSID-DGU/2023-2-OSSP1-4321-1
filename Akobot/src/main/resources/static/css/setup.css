@@ -1,6 +1,8 @@
 /* setup container styles */
 .bubble-container {
-	background: #FFCE55;
+	/*background:#FEF7E0;*/
+	/*background: #FFCE55;*/
+	background: rgb(255, 235, 210);
 	height: 510px;
 	max-width: 750px;
 	width: 100%;
@@ -15,7 +17,7 @@
 	bottom: 0;
 	left: 0;
 	right: -17px;
-	padding: 10px calc(17px + 10px) 30px 10px;
+	padding: 30px 15px 30px 15px; /*간격 조절*/
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
 	-webkit-transform: translate3d(0, 0, 0);
