@@ -4,8 +4,8 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # 임시!!!!! usr_input="수시 논술 알려줘"
-# usr_input = sys.argv[1]
-usr_input = input("사용자 입력 문장: ")
+usr_input = sys.argv[1]
+
 
 model = SentenceTransformer('jhgan/ko-sroberta-multitask')
 
