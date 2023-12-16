@@ -5,6 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # 임시!!!!! usr_input="수시 논술 알려줘"
 usr_input = sys.argv[1]
+# usr_input = input("사용자 문장: ")
 
 model = SentenceTransformer('jhgan/ko-sroberta-multitask')
 
@@ -12,7 +13,7 @@ model = SentenceTransformer('jhgan/ko-sroberta-multitask')
 matchings = []
 
 # intent embedding vector reader
-with open('intents.pkl', 'rb') as file:
+with open('/Akobot/src/main/resources/chatbot/intents.pkl', 'rb') as file:
     intents = pickle.load(file)
 
     # intents.pkl 구조:
@@ -37,8 +38,8 @@ with open('intents.pkl', 'rb') as file:
         matched_intent = "fallback_default"
         matched_level = 0
 
-    matchings.add(matched_intent)
-    matchings.add(matched_level)
+    matchings.append(matched_intent)
+    matchings.append(matched_level)
 
 # 매칭된 인텐트 중 포함관계 존재시, 상위인텐트 제거
 '''
