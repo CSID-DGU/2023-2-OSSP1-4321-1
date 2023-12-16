@@ -18,6 +18,11 @@
             margin: auto;
             width : 80%
         }
+
+        #sidebarToggleTop i {
+            color: #000; /* 검정색으로 변경, 필요에 따라 색상을 조절할 수 있습니다. */
+
+
     </style>
     <script>
         <!--important tag는 function 으로 change-->
@@ -51,7 +56,7 @@
             </a>
             <!-- Dropdown - User Information -->
             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
-            aria-labelledby="userDropdown">
+                 aria-labelledby="userDropdown">
                 <!-- 로그인 -->
                 <div class="row-cols-xl-6" style="width:290px;height:100px;">  <!--style="width:290px;height:100px;"-->
                     <div class="col-xl-10">
@@ -61,7 +66,7 @@
                             <span id="login-user" th:text="${userName}">사용자</span> 님, 안녕하세요!
                             <br><br>
                             <a href="logout" class="btn btn-sm btn-info active" role="button">Logout</a>
-                                <input id="changeDark" class = "btn btn-sm btn-info active" type="button" value="DarkMode" onclick="
+                            <input id="changeDark" class = "btn btn-sm btn-info active" type="button" value="DarkMode" onclick="
         if(document.querySelector('#changeDark').value === 'DarkMode'){ // 지금 상태가 light 모드 , Dark로 바꾸려면
             changeDark();
             document.querySelector('#content').style.background='#232324';
@@ -81,7 +86,7 @@
                             <!-- 스프링 시큐리티에서 기본 제공하는 URL - 별도 컨트롤러 작성 필요 없음 -->
                             <a href="/oauth2/authorization/google" class="btn btn-sm btn-info active button" role="button">로그인 하기</a>
                             <br><br>
-                                <input id="changeDark" class="btn btn-sm btn-info active button" type="button" value="DarkMode" onclick="
+                            <input id="changeDark" class="btn btn-sm btn-info active button" type="button" value="DarkMode" onclick="
         if(document.querySelector('#changeDark').value === 'DarkMode'){ // 지금 상태가 light 모드 , Dark로 바꾸려면
             changeDark();
             document.querySelector('#content').style.background='#232324';
