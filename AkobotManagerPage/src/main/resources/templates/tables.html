@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head th:replace="common_codes/fragments.html:: fragment-header(title='Akobot Management system')"></head>
+<style>
+    ul.pagination li.active a {
+        background-color: #C4BFBF !important;
+        border-color: #C4BFBF !important;
+        color: black !important;
+    }
+</style>
 <body id="page-top">
 
 <!-- Page Wrapper -->
@@ -31,7 +38,7 @@
                 <!-- DataTales Example -->
                 <div class="card shadow mb-4">
                     <div class="card-header py-3">
-                        <h6 class="m-0 font-weight-bold text-primary">Questions</h6>
+                        <h6 class="m-0 font-weight-bold text-dark">Questions</h6>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
