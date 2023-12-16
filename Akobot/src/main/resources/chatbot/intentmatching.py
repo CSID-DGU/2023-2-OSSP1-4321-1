@@ -8,7 +8,6 @@ usr_input = sys.argv[1]
 
 model = SentenceTransformer('jhgan/ko-sroberta-multitask')
 
-
 # 매칭된 [인텐트 영문명, 인텐트 레벨]를 갖는 2D 리스트
 matchings = []
 
@@ -18,7 +17,7 @@ with open('intents.pkl', 'rb') as file:
 
     # intents.pkl 구조:
     # itents = {
-    # "intent sentence" : ['intent', 'intent-eng', 'level' ],
+    # "intent sentence" : ['intent', 'intent-eng', 'level', embedding vector],
     # ...
     # }
 
