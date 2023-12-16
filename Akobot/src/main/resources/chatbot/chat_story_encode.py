@@ -1,8 +1,6 @@
 # 사용자 스토리 임베딩
-import csv
 import pickle
 from sentence_transformers import SentenceTransformer
-from sklearn.metrics.pairwise import cosine_similarity
 model = SentenceTransformer('jhgan/ko-sroberta-multitask')
 
 story = {
@@ -48,7 +46,9 @@ story = {
     '서류종합평가에 대해 알려줘.': ['서류종합평가', 'test_document', 9],
     '면접평가에 대해 알려줘.': ['면접평가', 'test_interview', 9],
     '학교생활기록부에 대해 알려줘.': ['학교생활기록부', 'test_records', 9],
+    '생기부에 대해 알려줘.':['생기부' 'test_records',9],
     '대학수학능력시험에 대해 알려줘.': ['대학수학능력시험', 'test_SAT', 9],
+    '수능에 대해 알려줘.':['수능','test_SAT',9],
 
     # level 10
     '외국인일정에 대해 알려줘.': ['재외국민/외국인일정', 'schedule_foreigner', 10],
@@ -64,50 +64,50 @@ story = {
 
 #키워드 타입
     #level 1
-    '전체모집요강':['total',1],
-    '수시':['earlyadmission',1],
-    '정시':['ksat',1],
-    '모집인원':['recruit',1],
-    '작년도경쟁률':['competition',1],
-    '지원자격유의사항':['note',1],
-    '외국인특별전형':['foreign',1],
-    '전형요소별평가방법':['test',1],
-    '전형일정':['schedule',1],
+    '전체모집요강':['모집인원', 'total', 1],
+    '수시':['수시', 'earlyadmission',1],
+    '정시':['정시', 'ksat',1],
+    '모집인원':['모집인원', 'recruit',1],
+    '작년도경쟁률':['작년도경쟁률', 'competition',1],
+    '지원자격유의사항':['지원자격유의사항', 'note',1],
+    '외국인특별전형':['외국인특별전형', 'foreign',1],
+    '전형요소별평가방법':['전형요소별평가방법', 'test',1],
+    '전형일정':['전형일정', 'schedule',1],
     #level 3
-    '두드림소프트웨어':['earlyadmission_dodreamsoft',3],
-    '불교추천':['earlyadmission_buddhism',3],
-    '학교장추천':['earlyadmission_principal',3],
-    '논술':['earlyadmission_essay',3],
-    '두드림':['earlyadmission_dodream',3],
-    '고른기회':['earlyadmission_regular',3],
-    '특수교육대상자':['earlyadmission_special',3],
-    '수시재직자':['earlyadmission_incumbent',3],
-    '실기':['earlyadmission_performance',3],
+    '두드림소프트웨어':['두드림소프트웨어', 'earlyadmission_dodreamsoft',3],
+    '불교추천':['불교추천', 'earlyadmission_buddhism',3],
+    '학교장추천':['학교장추천', 'earlyadmission_principal',3],
+    '논술':['논술', 'earlyadmission_essay',3],
+    '두드림':['두드림', 'earlyadmission_dodream',3],
+    '고른기회':['고른기회', 'earlyadmission_regular',3],
+    '특수교육대상자':['특수교육대상자', 'earlyadmission_special',3],
+    '수시재직자':['수시재직자', 'earlyadmission_incumbent',3],
+    '실기':['실기', 'earlyadmission_performance',3],
     #level 4
-    '일반전형':['ksat_normal',4],
-    '농어촌전형':['ksat_farming',4],
-    '특성화고교':['ksat_specialized',4],
-    '정시재직자':['ksat_incumbent',4],
-    '기초생활수급자및차상위계층':['ksat_basic',4],
+    '일반전형':['일반전형', 'ksat_normal',4],
+    '농어촌전형':['농어촌전형', 'ksat_farming',4],
+    '특성화고교':['특성화고교', 'ksat_specialized',4],
+    '정시재직자':['정시재직자', 'ksat_incumbent',4],
+    '기초생활수급자및차상위계층':['기초생활수급자및차상위계층', 'ksat_basic',4],
     #level 6
-    '수시경쟁률':['competition_earlyadmission',6],
-    '정시경쟁률':['competition_ksat',6],
+    '수시경쟁률':['수시경쟁률', 'competition_earlyadmission',6],
+    '정시경쟁률':['정시경쟁률' 'competition_ksat',6],
     #level 7
-    '농어촌학생재학거주인정기준':['note_farming',7],
-    '특성화고교졸업자동일계열기준학과':['note_special',7],
-    '재직기간산정기준':['note_incumbent',7],
+    '농어촌학생재학거주인정기준':['농어촌학생재학거주인정기준', 'note_farming',7],
+    '특성화고교졸업자동일계열기준학과':['특성화고교졸업자동일계열기준학과', 'note_special',7],
+    '재직기간산정기준':['재직기간산정기준', 'note_incumbent',7],
     #level 9
-    '서류종합평가':['test_document',9],
-    '면접평가':['test_interview',9],
-    '학교생활기록부':['test_records',9],
-    '생기부':['test_records',9],
-    '대학수학능력시험':['test_SAT',9],
-    '수능':['test_SAT',9],
+    '서류종합평가':['서류종합평가', 'test_document',9],
+    '면접평가':['면접평가', 'test_interview',9],
+    '학교생활기록부':['학교생활기록부', 'test_records',9],
+    '생기부':['생기부' 'test_records',9],
+    '대학수학능력시험':['대학수학능력시험', 'test_SAT',9],
+    '수능':['수능','test_SAT',9],
     #level 10
-    '재외국민일정':['schedule_foreigner',10],
-    '외국인일정':['schedule_foreigner',10],
-    '정시일정':['schedule_ksat',10],
-    '수시일정':['schedule_earlyadmission',10]
+    '재외국민일정':['재외국민일정', 'schedule_foreigner',10],
+    '외국인일정':['외국인일정', 'schedule_foreigner',10],
+    '정시일정':['정시일정', 'schedule_ksat',10],
+    '수시일정':['수시일정', 'schedule_earlyadmission',10]
 }
 
 # 사용자 스토리를 임베딩
