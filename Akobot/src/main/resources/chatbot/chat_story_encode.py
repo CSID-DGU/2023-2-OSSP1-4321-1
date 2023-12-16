@@ -119,5 +119,5 @@ for key, value in story.items():
     print(key, value)
 
 # 임베딩된 객체를 바이너리 파일로 저장
-with open("user_story.pkl", 'wb') as file:
+with open("intents.pkl", 'wb') as file:
     pickle.dump(story, file)

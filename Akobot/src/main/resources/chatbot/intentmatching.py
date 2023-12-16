@@ -13,10 +13,10 @@ model = SentenceTransformer('jhgan/ko-sroberta-multitask')
 matchings = []
 
 # intent embedding vector reader
-with open('user_story.pkl', 'rb') as file:
+with open('intents.pkl', 'rb') as file:
     intents = pickle.load(file)
 
-    # user_story.pkl 구조:
+    # intents.pkl 구조:
     # itents = {
     # "intent sentence" : ['intent', 'intent-eng', 'level' ],
     # ...

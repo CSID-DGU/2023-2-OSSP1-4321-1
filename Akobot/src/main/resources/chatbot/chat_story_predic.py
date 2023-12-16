@@ -15,7 +15,7 @@ success = 0
 fail = 0
 
 # embedded intent reader
-with open('user_story.pkl', 'rb') as file:
+with open('intents.pkl', 'rb') as file:
     user_story = pickle.load(file)
 
 # csv reader
