@@ -4,7 +4,8 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # 임시!!!!! usr_input="수시 논술 알려줘"
-usr_input = sys.argv[1]
+# usr_input = sys.argv[1]
+usr_input = input("사용자 입력 문장: ")
 
 model = SentenceTransformer('jhgan/ko-sroberta-multitask')
 
@@ -37,8 +38,8 @@ with open('intents.pkl', 'rb') as file:
         matched_intent = "fallback_default"
         matched_level = 0
 
-    matchings.add(matched_intent)
-    matchings.add(matched_level)
+    matchings.append(matched_intent)
+    matchings.append(matched_level)
 
 # 매칭된 인텐트 중 포함관계 존재시, 상위인텐트 제거
 '''
