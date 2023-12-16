@@ -1,0 +1,753 @@
+"pass",0.8798450231552124,﻿전체모집요강이 뭐야?,total,total
+"pass",0.9697098731994629,전체모집요강 알려줘,total,total
+"pass",0.9697098731994629,전체모집요강 알려줘,total,total
+"pass",0.9234268069267273,전체모집요강 보여줘,total,total
+"fail",0.7838643789291382,모집 공지 알려줄래?,total,recruit
+"pass",0.8726794719696045,수시를 알고싶어,earlyadmission,earlyadmission
+"pass",0.9328030347824097,수시 알려줘,earlyadmission,earlyadmission
+"pass",0.9273725748062134,수시전형 알려줘,earlyadmission,earlyadmission
+"pass",0.9043998718261719,수시에 대해서 알고싶어,earlyadmission,earlyadmission
+"pass",0.8674207925796509,수시전형에 대해서 알고싶어,earlyadmission,earlyadmission
+"pass",0.7651643753051758,수시 지원하고싶어,earlyadmission,earlyadmission
+"pass",0.7367666959762573,수시,earlyadmission,earlyadmission
+"pass",0.7643824815750122,수시 전형,earlyadmission,earlyadmission
+"fail",0.8800674676895142,정시전형 알려줘,ksat,competition_ksat
+"pass",0.9240910410881042,정시 알려줘,ksat,ksat
+"pass",0.8805664777755737,정시에 대해서 알고싶어,ksat,ksat
+"fail",0.842026948928833,정시전형에 대해서 알고싶어,ksat,competition_ksat
+"pass",0.7283393144607544,정시 지원하고싶어,ksat,ksat
+"pass",0.714529275894165,정시,ksat,ksat
+"fail",0.5620057582855225,수능,ksat,fallback_default
+"fail",0.7440844774246216,정시전형,ksat,competition_ksat
+"pass",0.8398885130882263,모집인원이 몇 명이지?,recruit,recruit
+"pass",0.8546368479728699,모집인원 어때?,recruit,recruit
+"pass",0.7800742983818054,몇 명 모집해?,recruit,recruit
+"pass",0.9131070375442505,모집인원 알고싶어,recruit,recruit
+"pass",0.8247331380844116,모집인원,recruit,recruit
+"pass",0.8982224464416504,작년도경쟁률은 어때?,competition,competition
+"pass",0.9369721412658691,작년도경쟁률 알고싶어,competition,competition
+"pass",0.9778629541397095,작년도경쟁률 알려줘,competition,competition
+"pass",0.7216808795928955,경쟁률 알려줘,competition,competition
+"pass",0.8409809470176697,지원자격유의사항 있어?,note,note
+"pass",0.7172112464904785,지원 시 유의점은 뭐야?,note,note
+"pass",0.9336301684379578,지원자격유의사항 말해줘,note,note
+"pass",0.8608942031860352,지원자격유의사항유의사항,note,note
+"pass",0.8610813021659851,외국인특별전형,foreign,foreign
+"pass",0.9729762077331543,외국인특별전형 알려줘,foreign,foreign
+"pass",0.8275356888771057,외국인특별전형 지원할 수 있어?,foreign,foreign
+"pass",0.8275356888771057,외국인특별전형 지원할 수 있어?,foreign,foreign
+"fail",0.6175346970558167,외국인은 어떻게 지원해?,foreign,fallback_default
+"pass",0.8788557052612305,외국인특별전형 궁금해,foreign,foreign
+"pass",0.8812133073806763,외국인특별전형은 어때?,foreign,foreign
+"fail",0.4504232108592987,how to apply,foreign,fallback_default
+"pass",0.9893790483474731,전형요소별평가방법 알려줘,test,test
+"pass",0.9317800998687744,전형요소별평가방법 알고싶어,test,test
+"pass",0.8916604518890381,전형요소별평가방법 ,test,test
+"fail",0.6077091097831726,어떻게 평가해?,test,fallback_default
+"pass",0.8439786434173584,전형일정 어떻게 돼?,schedule,schedule
+"pass",0.976233959197998,전형일정 알려줘,schedule,schedule
+"pass",0.8545143604278564,전형일정,schedule,schedule
+"pass",0.8558734655380249,전형일정이 궁금해,schedule,schedule
+"pass",0.939749002456665,일반전형 설명해줘,ksat_normal,ksat_normal
+"pass",0.8336755633354187,일반전형은 뭐야?,ksat_normal,ksat_normal
+"pass",0.8268700838088989,일반전형,ksat_normal,ksat_normal
+"fail",0.7187848687171936,정시일반전형,ksat_normal,competition_ksat
+"pass",0.850875735282898,일반전형은 어떻지?,ksat_normal,ksat_normal
+"pass",0.8311724662780762,농어촌전형,ksat_farming,ksat_farming
+"pass",0.9498271942138672,농어촌전형 설명해줘,ksat_farming,ksat_farming
+"pass",0.9751014113426208,농어촌전형 알려줘,ksat_farming,ksat_farming
+"pass",0.953911542892456,농어촌전형을 설명해줘,ksat_farming,ksat_farming
+"pass",0.8612849116325378,농어촌전형 알고싶은데,ksat_farming,ksat_farming
+"pass",0.8510535359382629,특성화고교,ksat_specialized,ksat_specialized
+"pass",0.8153649568557739,특성화고교전형,ksat_specialized,ksat_specialized
+"pass",0.91629958152771,특성화고교전형 설명해줘,ksat_specialized,ksat_specialized
+"pass",0.9293648600578308,특성화고교전형 알려줘,ksat_specialized,ksat_specialized
+"fail",0.7303207516670227,정시 특성화고교전형,ksat_specialized,note_special
+"pass",0.8003677725791931,정시 특성화고교전형 설명해줘,ksat_specialized,ksat_specialized
+"pass",0.8210244178771973,정시 특성화고교전형 알려줘,ksat_specialized,ksat_specialized
+"pass",0.7665013670921326,재직자,ksat_incumbent,ksat_incumbent
+"pass",0.707604169845581,재직자전형,ksat_incumbent,ksat_incumbent
+"pass",0.8213176727294922,재직자전형 설명해줘,ksat_incumbent,ksat_incumbent
+"pass",0.8457338213920593,재직자전형 알려줘,ksat_incumbent,ksat_incumbent
+"pass",0.6915394067764282,재직자는 지원가능할까?,ksat_incumbent,ksat_incumbent
+"fail",0.7881934642791748,정시 재직자전형 설명해줘,ksat_incumbent,ksat
+"fail",0.8088105916976929,정시 재직자전형 알려줘,ksat_incumbent,competition_ksat
+"pass",0.7837916016578674,기초생활수급자,ksat_basic,ksat_basic
+"pass",0.7905097007751465,기초생활수급자및차상위계층전형은 어때?,ksat_basic,ksat_basic
+"fail",0.6411129236221313,기초생활수급자및차상위계층도 수능 지원할 수 있어?,ksat_basic,fallback_default
+"pass",0.885851263999939,기초생활수급자및차상위계층,ksat_basic,ksat_basic
+"pass",0.957219123840332,기초생활수급자및차상위계층 설명해줘,ksat_basic,ksat_basic
+"pass",0.9269039630889893,기초생활수급자및차상위계층전형 설명해줘,ksat_basic,ksat_basic
+"pass",0.9282922744750977,기초생활수급자및차상위계층 지원방법 설명해줘,ksat_basic,ksat_basic
+"pass",0.9869755506515503,기초생활수급자및차상위계층을 알려줘,ksat_basic,ksat_basic
+"pass",0.7289761304855347,차상위계층전형 알려줘,ksat_basic,ksat_basic
+"pass",0.9145973324775696,두드림소프트웨어,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.7516267895698547,수시 두드림소프트웨어,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.9651119709014893,두드림소프트웨어 설명해줘,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.9654074311256409,두드림소프트웨어 알려줘,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.9164323806762695,두드림소프트웨어가 뭐야,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.8538359999656677,수시 두드림소프트웨어 설명해줘,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.8148579597473145,수시 두드림소프트웨어 알려줘,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.8520805835723877,두드림소프트웨어전형,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.8824800252914429,불교추천,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.828220009803772,불교추천전형,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.833908200263977,수시 불교추천,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.8760836124420166,학교장추천,earlyadmission_principal,earlyadmission_principal
+"pass",0.8133098483085632,학교장추천전형,earlyadmission_principal,earlyadmission_principal
+"pass",0.8080146312713623,수시 학교장추천,earlyadmission_principal,earlyadmission_principal
+"pass",0.7196056246757507,수시 학교장추천전형,earlyadmission_principal,earlyadmission_principal
+"pass",0.808322012424469,두드림,earlyadmission_dodream,earlyadmission_dodream
+"pass",0.6882801055908203,두드림전형,earlyadmission_dodream,earlyadmission_dodream
+"fail",0.7583404779434204,수시 두드림전형,earlyadmission_dodream,earlyadmission
+"fail",0.7729646563529968,수시 두드림,earlyadmission_dodream,earlyadmission
+"pass",0.8029078841209412,두드림전형 설명해줘,earlyadmission_dodream,earlyadmission_dodream
+"pass",0.799160897731781,두드림전형 알려줘,earlyadmission_dodream,earlyadmission_dodream
+"fail",0.8305997848510742,수시 두드림전형 설명해줘,earlyadmission_dodream,earlyadmission
+"pass",0.6605286598205566,두드림전형을 알고싶은데,earlyadmission_dodream,earlyadmission_dodream
+"pass",0.8510923981666565,두드림 알려줄래?,earlyadmission_dodream,earlyadmission_dodream
+"fail",0.8908851146697998,수시 두드림 알려줘,earlyadmission_dodream,earlyadmission
+"pass",0.8363017439842224,고른기회,earlyadmission_regular,earlyadmission_regular
+"fail",0.5313908457756042,고른기회전형,earlyadmission_regular,fallback_default
+"pass",0.8303705453872681,고른기회가 뭐야?,earlyadmission_regular,earlyadmission_regular
+"fail",0.5632920265197754,고른기회전형 궁금하다,earlyadmission_regular,fallback_default
+"pass",0.9232693910598755,고른기회 설명해줘,earlyadmission_regular,earlyadmission_regular
+"pass",0.9648224115371704,고른기회 알려줘,earlyadmission_regular,earlyadmission_regular
+"fail",0.8006089925765991,수시 고른기회 설명해줘,earlyadmission_regular,earlyadmission
+"fail",0.8199300169944763,수시 고른기회 알려줘,earlyadmission_regular,earlyadmission
+"fail",0.7759193181991577,수시 고른기회전형 설명해줘,earlyadmission_regular,earlyadmission
+"fail",0.8085153102874756,수시 고른기회전형 알려줘,earlyadmission_regular,earlyadmission
+"pass",0.6600050330162048,고른기회전형 설명해줘,earlyadmission_regular,earlyadmission_regular
+"pass",0.6946182250976562,고른기회전형 알려줘,earlyadmission_regular,earlyadmission_regular
+"pass",0.9165126085281372,농어촌학생재학거주인정기준,note_farming,note_farming
+"pass",0.9202989339828491,농어촌학생재학거주인정기준이 뭐야?,note_farming,note_farming
+"pass",0.9276554584503174,농어촌학생재학거주인정기준은 어때?,note_farming,note_farming
+"pass",0.924924910068512,농어촌학생재학거주인정기준 궁금해,note_farming,note_farming
+"pass",0.9874746799468994,농어촌학생재학거주인정기준 알려줘,note_farming,note_farming
+"fail",0.4194498360157013,농어촌,note_farming,ksat_farming ,fallback_default
+"pass",0.9415743947029114,농어촌학생재학거주인정기준을 알려줄래?,note_farming,note_farming
+"pass",0.9361779689788818,특성화고교졸업자동일계열기준학과,note_special,note_special
+"pass",0.9258144497871399,특성화고교졸업자동일계열기준학과는 어떻지?,note_special,note_special
+"pass",0.9160637855529785,특성화고교졸업자동일계열기준학과가 궁금해,note_special,note_special
+"pass",0.8143315315246582,특성화고교졸업자 동일계열 기준학과는 뭐야?,note_special,note_special
+"pass",0.982225239276886,특성화고교졸업자동일계열기준학과 알려줘,note_special,note_special
+"pass",0.8883436918258667,재직기간산정기준,note_incumbent,note_incumbent
+"pass",0.9017198085784912,재직기간산정기준은 뭐야?,note_incumbent,note_incumbent
+"pass",0.9834465384483337,재직기간산정기준을 알려줘,note_incumbent,note_incumbent
+"pass",0.8883436918258667,재직기간산정기준,note_incumbent,note_incumbent
+"pass",0.9039660692214966,재직기간산정기준은 어떻게 돼?,note_incumbent,note_incumbent
+"pass",0.8258248567581177,서류종합평가,test_document,test_document
+"pass",0.8020799160003662,서류종합평가방식,test_document,test_document
+"pass",0.8057108521461487,서류종합평가의 기준은 뭐야?,test_document,test_document
+"pass",0.851108729839325,서류종합평가에는 뭐가 해당돼?,test_document,test_document
+"fail",0.5859158039093018,서류,test_document,fallback_default
+"pass",0.9304134249687195,서류종합평가방식 알려줘,test_document,test_document
+"pass",0.97662353515625,서류종합평가를 알려줘,test_document,test_document
+"pass",0.8406649231910706,서류종합평가 항목이 궁금해,test_document,test_document
+"pass",0.8280705809593201,면접평가,test_interview,test_interview
+"pass",0.8305284976959229,면접평가는 어떤 식으로 진행돼?,test_interview,test_interview
+"pass",0.9363093376159668,면접평가방식 알려줘,test_interview,test_interview
+"pass",0.9540314674377441,면접평가방법 알려줘,test_interview,test_interview
+"pass",0.828960657119751,학교생활기록부,test_records,test_records
+"fail",0.2884156405925751,생기부,test_records,fallback_default
+"pass",0.7881894707679749,학교생활기록부 평가,test_records,test_records
+"pass",0.7282925248146057,학교생활기록부 평가방식,test_records,test_records
+"pass",0.7673647999763489,학교생활기록부 평가방법,test_records,test_records
+"pass",0.965792179107666,학교생활기록부 알려줘,test_records,test_records
+"pass",0.7196643352508545,학교생활기록부는 어느 전형에 반영되지?,test_records,test_records
+"pass",0.7897827625274658,학교생활기록부 반영 항목이 뭐야?,test_records,test_records
+"pass",0.788263738155365,학교생활기록부 어떻게 평가해?,test_records,test_records
+"pass",0.860907793045044,학교생활기록부 평가방법 알려줘,test_records,test_records
+"pass",0.8087915182113647,대학수학능력시험성적,test_SAT,test_SAT
+"pass",0.8408971428871155,대학수학능력시험,test_SAT,test_SAT
+"fail",0.5620057582855225,수능,ksat,test_SAT,fallback_default
+"pass",0.7293341159820557,대학수학능력시험을 점수 반영해?,test_SAT,test_SAT
+"pass",0.8115698099136353,대학수학능력시험 평가방법,test_SAT,test_SAT
+"pass",0.772568941116333,대학수학능력시험 평가방식,test_SAT,test_SAT
+"pass",0.9079970717430115,대학수학능력시험 평가방법 알려줘,test_SAT,test_SAT
+"pass",0.8751147389411926,대학수학능력시험 평가방식 알려줘,test_SAT,test_SAT
+"pass",0.8079710602760315,대학수학능력시험평가방법,test_SAT,test_SAT
+"pass",0.7647081017494202,대학수학능력시험평가방식,test_SAT,test_SAT
+"pass",0.7888792157173157,대학수학능력시험등급,test_SAT,test_SAT
+"pass",0.4607718288898468,최저학력기준,fallback_default,fallback_default
+"pass",0.7528662085533142,대학수학능력시험 잘쳐야돼?,test_SAT,test_SAT
+"pass",0.6103379726409912,최저학력기준 알려줘,fallback_default,fallback_default
+"fail",0.3572693169116974,최저 알려줘,test_SAT,fallback_default
+"pass",0.4706645905971527,최저학력기준은 어때,fallback_default,fallback_default
+"pass",0.9440546035766602,재외국민/외국인일정을 좀 알려주겠어?,schedule_foreigner,schedule_foreigner
+"fail",0.8729567527770996,정시일정이 어떻게 돼?,ksat,schedule_ksat,schedule_ksat
+"fail",0.8618044257164001,정시일정이 궁금해,ksat,schedule_ksat,schedule_ksat
+"fail",0.9775678515434265,정시일정 알려줘,ksat,schedule_ksat,schedule_ksat
+"fail",0.8780074119567871,정시일정,ksat,schedule_ksat,schedule_ksat
+"fail",0.8788244724273682,수시일정,earlyadmission,schedule_earlyadmission,schedule_earlyadmission
+"fail",0.8780665397644043,수시일정은 어때?,earlyadmission,schedule_earlyadmission,schedule_earlyadmission
+"fail",0.9016523361206055,수시일정 좀 알려줄래?,earlyadmission,schedule_earlyadmission,schedule_earlyadmission
+"fail",0.780897319316864,수시일정은 언제부터 시작이야?,earlyadmission,schedule_earlyadmission,schedule_earlyadmission
+"pass",0.9697098731994629,전체모집요강 알려줘,total,total
+"pass",0.8798450231552124,전체모집요강이 뭐야?,total,total
+"pass",0.9792633652687073,전체모집요강을 알려줘,total,total
+"pass",0.9328030347824097,수시 알려줘,earlyadmission,earlyadmission
+"pass",0.9683874249458313,수시를 알려줘,earlyadmission,earlyadmission
+"pass",0.8222495317459106,수시가 궁금해,earlyadmission,earlyadmission
+"pass",0.9860630631446838,수시에 대해서 알려줘,earlyadmission,earlyadmission
+"pass",0.9240910410881042,정시 알려줘,ksat,ksat
+"pass",0.9544498920440674,정시를 알려줘,ksat,ksat
+"pass",0.7583790421485901,정시가 궁금해,ksat,ksat
+"pass",0.9800485968589783,정시에 대해서 알려줘,ksat,ksat
+"pass",0.8275506496429443,모집인원 몇 명?,recruit,recruit
+"pass",0.9807764291763306,모집인원을 알려줘,recruit,recruit
+"pass",0.8398885130882263,모집인원이 몇 명이지?,recruit,recruit
+"pass",0.9910666346549988,모집인원에 대해 알려줘,recruit,recruit
+"pass",0.8982224464416504,작년도경쟁률은 어때?,competition,competition
+"pass",0.9799058437347412,작년도경쟁률을 알려줘,competition,competition
+"pass",0.9728769063949585,작년도경쟁률에 대해 말해줘,competition,competition
+"pass",0.9778629541397095,작년도경쟁률 알려줘,competition,competition
+"pass",0.8673146963119507,지원자격유의사항은 뭐야?,note,note
+"pass",0.9872094988822937,지원자격유의사항을 알려줘,note,note
+"pass",0.9698928594589233,지원자격유의사항에 대해 말해줘,note,note
+"pass",0.8620449304580688,지원자격유의사항이 뭐뭐 있을까,note,note
+"pass",0.783214807510376,재외국민/외국인특별전형은 어떻게 돼?,foreign,foreign
+"pass",0.7611442804336548,재외국민/외국인특별전형에 해당되는지 궁금해,foreign,foreign
+"pass",0.860123872756958,재외국민/외국인특별전형 알려줘,foreign,foreign
+"pass",0.7935832738876343,재외국민/외국인특별전형이 궁금해,foreign,foreign
+"pass",0.7160235047340393,재외국민/외국인특별전형으로 갈 수 있을까?,foreign,foreign
+"pass",0.9842530488967896,전형요소별평가방법을 알려줘,test,test
+"pass",0.8895508050918579,전형요소별평가방법이 어떻게 진행되는지 알아?,test,test
+"pass",0.9016017913818359,전형요소별평가방법에 대해서 궁금해,test,test
+"pass",0.8960323333740234,전형요소별평가방법으로는 뭐가 있어,test,test
+"pass",0.9546301364898682,전형요소별평가방법은 어떤지 알려줘,test,test
+"pass",0.976233959197998,전형일정 알려줘,schedule,schedule
+"pass",0.8558734655380249,전형일정이 궁금해,schedule,schedule
+"pass",0.8380030393600464,전형일정은 어떻게 돼?,schedule,schedule
+"pass",0.9874386787414551,전형일정에 대해 알려줘,schedule,schedule
+"pass",0.893506646156311,전형일정을 알고싶어,schedule,schedule
+"fail",0.9654074311256409,두드림소프트웨어 알려줘,earlyadmission_dodream,earlyadmission_dodreamsoft
+"fail",0.8907919526100159,두드림소프트웨어가 궁금해,earlyadmission_dodream,earlyadmission_dodreamsoft
+"fail",0.9233424067497253,두드림소프트웨어는 어떻게 돼?,earlyadmission_dodream,earlyadmission_dodreamsoft
+"fail",0.9947600364685059,두드림소프트웨어에 대해 알려줘,earlyadmission_dodream,earlyadmission_dodreamsoft
+"fail",0.9382191896438599,두드림소프트웨어를 알고싶어,earlyadmission_dodream,earlyadmission_dodreamsoft
+"pass",0.9553940892219543,두드림을 알려줘,earlyadmission_dodream,earlyadmission_dodream
+"fail",0.59958815574646,두드림 전형이 궁금해,earlyadmission_dodream,fallback_default
+"pass",0.8311010599136353,두드림은 어떻게 돼?,earlyadmission_dodream,earlyadmission_dodream
+"pass",0.9880492687225342,두드림에 대해 알려줘,earlyadmission_dodream,earlyadmission_dodream
+"pass",0.8466870784759521,두드림을 알고싶어,earlyadmission_dodream,earlyadmission_dodream
+"pass",0.9388823509216309,불교추천 전형을 알려줘,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.9584667682647705,불교추천을 설명해줘,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.8676081299781799,불교추천이 뭐야?,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.9923986196517944,불교추천에 대해 알려줘,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.9181134700775146,불교추천을 알고싶어,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.8896133303642273,학교장추천 전형을 알려줘,earlyadmission_principal,earlyadmission_principal
+"pass",0.9408179521560669,학교장추천을 설명해줘,earlyadmission_principal,earlyadmission_principal
+"pass",0.8607091903686523,학교장추천이 뭐야?,earlyadmission_principal,earlyadmission_principal
+"pass",0.9911521673202515,학교장추천에 대해 알려줘,earlyadmission_principal,earlyadmission_principal
+"pass",0.9035914540290833,학교장추천을 알고싶어,earlyadmission_principal,earlyadmission_principal
+"pass",0.6868833899497986,고른기회 전형이 뭐야?,earlyadmission_regular,earlyadmission_regular
+"pass",0.872281014919281,고른기회는 어때?,earlyadmission_regular,earlyadmission_regular
+"fail",0.6053511500358582,고른기회전형이 뭔지 궁금해,earlyadmission_regular,fallback_default
+"pass",0.8974919319152832,고른기회에 해당되는지 알려줘,earlyadmission_regular,earlyadmission_regular
+"pass",0.9275511503219604,고른기회를 설명해봐,earlyadmission_regular,earlyadmission_regular
+"pass",0.8607810735702515,논술 전형을 설명해줘,earlyadmission_essay,earlyadmission_essay
+"pass",0.700119137763977,논술 언제야?,earlyadmission_essay,earlyadmission_essay
+"pass",0.9846988916397095,논술에 대해서 알려줘,earlyadmission_essay,earlyadmission_essay
+"pass",0.7884633541107178,논술은 어떻게 하는거지?,earlyadmission_essay,earlyadmission_essay
+"fail",0.6011104583740234,논술을 잘 모르겠어,earlyadmission_essay,fallback_default
+"pass",0.9640819430351257,일반전형 알려줘,ksat_normal,ksat_normal
+"pass",0.8564149141311646,일반전형은 어때,ksat_normal,ksat_normal
+"pass",0.8374321460723877,일반전형이 뭐야,ksat_normal,ksat_normal
+"pass",0.902604341506958,일반전형을 알고싶어,ksat_normal,ksat_normal
+"fail",0.9751014113426208,농어촌전형 알려줘,note_farming,ksat_farming
+"fail",0.8459470272064209,농어촌전형은 어떻게 돼?,note_farming,ksat_farming
+"fail",0.8210122585296631,농어촌전형에 해당되는지 궁금해,note_farming,ksat_farming
+"fail",0.8246686458587646,농어촌전형이 어떤 전형이야?,note_farming,ksat_farming
+"pass",0.8737010955810547,특성화고교 졸업자 통합계열 기준학과 좀 알려줘,note_special,note_special
+"fail",0.9092145562171936,특성화고교 전형을 알려줘,note_special,ksat_specialized
+"fail",0.6814640164375305,특성화고는 전형이 따로 있나?,note_special,ksat_specialized
+"fail",0.685711145401001,재직자인데 관련 전형을 알고 싶어,note_incumbent,ksat_incumbent
+"fail",0.6875860691070557,재직자는 어떤 전형이 있을까?,note_incumbent,ksat_incumbent
+"fail",0.8203818798065186,재직자 전형 알려줘,note_incumbent,ksat_incumbent
+"fail",0.8531577587127686,재직자에 대해 궁금해,note_incumbent,ksat_incumbent
+"pass",0.8988864421844482,기초생활수급자및차상위계층 전형 설명해줘,ksat_basic,ksat_basic
+"pass",0.7285840511322021,기초생활수급자및차상위계층은 어떤 전형에 지원이 가능해?,ksat_basic,ksat_basic
+"pass",0.9063726663589478,기초생활수급자및차상위계층에 해당돼,ksat_basic,ksat_basic
+"pass",0.9121810793876648,기초생활수급자및차상위계층이야,ksat_basic,ksat_basic
+"pass",0.9869755506515503,기초생활수급자및차상위계층을 알려줘,ksat_basic,ksat_basic
+"pass",0.9266736507415771,농어촌학생재학거주인정기준 어떻게 돼?,note_farming,note_farming
+"pass",0.9891793727874756,농어촌학생재학거주인정기준을 알려줘,note_farming,note_farming
+"pass",0.8968567848205566,특성화고교졸업자통합계열기준학과가 뭐뭐 있지?,note_special,note_special
+"pass",0.8800556659698486,특성화고교졸업자통합계열기준학과에 해당되는데 유의사항 있을까?,note_special,note_special
+"pass",0.8672192096710205,재직기간산정기준 있나요?,note_incumbent,note_incumbent
+"pass",0.7578552961349487,제직기간간정기준이 어떻게 될까,note_incumbent,note_incumbent
+"pass",0.8426467776298523,서류종합평가 방법이 궁금해,test_document,test_document
+"pass",0.9237486124038696,서류종합평가 방식을 알려줘,test_document,test_document
+"pass",0.8084726333618164,서류종합평가는 어떻게 진행돼?,test_document,test_document
+"fail",0.6812875270843506,수시에서 면접평가 해?,earlyadmission,test_interview,test_interview
+"pass",0.8593884706497192,면접평가는 어떻게 돼?,test_interview,test_interview
+"pass",0.9220391511917114,면접평가 기준에 대해서 알려줘,test_interview,test_interview
+"pass",0.7903101444244385,학교생활기록부 반영방법,test_records,test_records
+"pass",0.7727906107902527,학교생활기록부에 어떤게 반영이 돼?,test_records,test_records
+"pass",0.9549437761306763,대학수학능력시험 알려줘,test_SAT,test_SAT
+"pass",0.9321744441986084,대학수학능력시험에 대해 알고싶어,test_SAT,test_SAT
+"pass",0.837761402130127,특수교육대상자에 해당되는 게 있을까?,earlyadmission_special,earlyadmission_special
+"fail",0.6026740670204163,특수교육대상자에게 해당되는 전형이 수시에 있어?,earlyadmission_special,fallback_default
+"pass",0.6858279705047607,실기는 어느 전형이야?,earlyadmission_performance,earlyadmission_performance
+"pass",0.8308318853378296,실기를 준비하고 싶은데 실기에 관련한 정보를 제공해줘,earlyadmission_performance,earlyadmission_performance
+"fail",0.8767062425613403,수시경쟁률은 어때?,earlyadmission,competition_earlyadmission,competition_earlyadmission
+"fail",0.8525124788284302,수시경쟁률은 어느정도야?,earlyadmission,competition_earlyadmission,competition_earlyadmission
+"fail",0.8719809055328369,수시경쟁률을 보고싶어,earlyadmission,competition_earlyadmission,competition_earlyadmission
+"fail",0.8641291856765747,정시경쟁률은 어때?,ksat,competition_ksat,competition_ksat
+"fail",0.8473823070526123,정시경쟁률은 어느정도야?,ksat,competition_ksat,competition_ksat
+"fail",0.851847767829895,정시경쟁률을 보고싶어,ksat,competition_ksat,competition_ksat
+"pass",0.38358259201049805,고마워,fallback_default,fallback_default
+"pass",0.4156189560890198,알겠어,fallback_default,fallback_default
+"pass",0.8798450231552124,전체모집요강이 뭐야?,total,total
+"pass",0.9697098731994629,전체모집요강 알려줘,total,total
+"pass",0.9697098731994629,전체모집요강 알려줘,total,total
+"pass",0.9234268069267273,전체모집요강 보여줘,total,total
+"fail",0.7838643789291382,모집 공지 알려줄래?,total,recruit
+"pass",0.8726794719696045,수시를 알고싶어,earlyadmission,earlyadmission
+"pass",0.9328030347824097,수시 알려줘,earlyadmission,earlyadmission
+"pass",0.9273725748062134,수시전형 알려줘,earlyadmission,earlyadmission
+"pass",0.9043998718261719,수시에 대해서 알고싶어,earlyadmission,earlyadmission
+"pass",0.8674207925796509,수시전형에 대해서 알고싶어,earlyadmission,earlyadmission
+"pass",0.7651643753051758,수시 지원하고싶어,earlyadmission,earlyadmission
+"pass",0.7367666959762573,수시,earlyadmission,earlyadmission
+"pass",0.7643824815750122,수시 전형,earlyadmission,earlyadmission
+"fail",0.8800674676895142,정시전형 알려줘,ksat,competition_ksat
+"pass",0.9240910410881042,정시 알려줘,ksat,ksat
+"pass",0.8805664777755737,정시에 대해서 알고싶어,ksat,ksat
+"fail",0.842026948928833,정시전형에 대해서 알고싶어,ksat,competition_ksat
+"pass",0.7283393144607544,정시 지원하고싶어,ksat,ksat
+"pass",0.714529275894165,정시,ksat,ksat
+"fail",0.5620057582855225,수능,ksat,fallback_default
+"fail",0.7440844774246216,정시전형,ksat,competition_ksat
+"pass",0.8398885130882263,모집인원이 몇 명이지?,recruit,recruit
+"pass",0.8546368479728699,모집인원 어때?,recruit,recruit
+"pass",0.7800742983818054,몇 명 모집해?,recruit,recruit
+"pass",0.9131070375442505,모집인원 알고싶어,recruit,recruit
+"pass",0.8247331380844116,모집인원,recruit,recruit
+"pass",0.8982224464416504,작년도경쟁률은 어때?,competition,competition
+"pass",0.9369721412658691,작년도경쟁률 알고싶어,competition,competition
+"pass",0.9778629541397095,작년도경쟁률 알려줘,competition,competition
+"pass",0.7216808795928955,경쟁률 알려줘,competition,competition
+"pass",0.8409809470176697,지원자격유의사항 있어?,note,note
+"pass",0.7172112464904785,지원 시 유의점은 뭐야?,note,note
+"pass",0.9336301684379578,지원자격유의사항 말해줘,note,note
+"pass",0.8608942031860352,지원자격유의사항유의사항,note,note
+"pass",0.8610813021659851,외국인특별전형,foreign,foreign
+"pass",0.9729762077331543,외국인특별전형 알려줘,foreign,foreign
+"pass",0.8275356888771057,외국인특별전형 지원할 수 있어?,foreign,foreign
+"pass",0.8275356888771057,외국인특별전형 지원할 수 있어?,foreign,foreign
+"fail",0.6175346970558167,외국인은 어떻게 지원해?,foreign,fallback_default
+"pass",0.8788557052612305,외국인특별전형 궁금해,foreign,foreign
+"pass",0.8812133073806763,외국인특별전형은 어때?,foreign,foreign
+"fail",0.4504232108592987,how to apply,foreign,fallback_default
+"pass",0.9893790483474731,전형요소별평가방법 알려줘,test,test
+"pass",0.9317800998687744,전형요소별평가방법 알고싶어,test,test
+"pass",0.8916604518890381,전형요소별평가방법 ,test,test
+"fail",0.6077091097831726,어떻게 평가해?,test,fallback_default
+"pass",0.8439786434173584,전형일정 어떻게 돼?,schedule,schedule
+"pass",0.976233959197998,전형일정 알려줘,schedule,schedule
+"pass",0.8545143604278564,전형일정,schedule,schedule
+"pass",0.8558734655380249,전형일정이 궁금해,schedule,schedule
+"pass",0.939749002456665,일반전형 설명해줘,ksat_normal,ksat_normal
+"pass",0.8336755633354187,일반전형은 뭐야?,ksat_normal,ksat_normal
+"pass",0.8268700838088989,일반전형,ksat_normal,ksat_normal
+"fail",0.7187848687171936,정시일반전형,ksat_normal,competition_ksat
+"pass",0.850875735282898,일반전형은 어떻지?,ksat_normal,ksat_normal
+"pass",0.8311724662780762,농어촌전형,ksat_farming,ksat_farming
+"pass",0.9498271942138672,농어촌전형 설명해줘,ksat_farming,ksat_farming
+"pass",0.9751014113426208,농어촌전형 알려줘,ksat_farming,ksat_farming
+"pass",0.953911542892456,농어촌전형을 설명해줘,ksat_farming,ksat_farming
+"pass",0.8612849116325378,농어촌전형 알고싶은데,ksat_farming,ksat_farming
+"pass",0.8510535359382629,특성화고교,ksat_specialized,ksat_specialized
+"pass",0.8153649568557739,특성화고교전형,ksat_specialized,ksat_specialized
+"pass",0.91629958152771,특성화고교전형 설명해줘,ksat_specialized,ksat_specialized
+"pass",0.9293648600578308,특성화고교전형 알려줘,ksat_specialized,ksat_specialized
+"fail",0.7303207516670227,정시 특성화고교전형,ksat_specialized,note_special
+"pass",0.8003677725791931,정시 특성화고교전형 설명해줘,ksat_specialized,ksat_specialized
+"pass",0.8210244178771973,정시 특성화고교전형 알려줘,ksat_specialized,ksat_specialized
+"pass",0.7665013670921326,재직자,ksat_incumbent,ksat_incumbent
+"pass",0.707604169845581,재직자전형,ksat_incumbent,ksat_incumbent
+"pass",0.8213176727294922,재직자전형 설명해줘,ksat_incumbent,ksat_incumbent
+"pass",0.8457338213920593,재직자전형 알려줘,ksat_incumbent,ksat_incumbent
+"pass",0.6915394067764282,재직자는 지원가능할까?,ksat_incumbent,ksat_incumbent
+"fail",0.7881934642791748,정시 재직자전형 설명해줘,ksat_incumbent,ksat
+"fail",0.8088105916976929,정시 재직자전형 알려줘,ksat_incumbent,competition_ksat
+"pass",0.7837916016578674,기초생활수급자,ksat_basic,ksat_basic
+"pass",0.7905097007751465,기초생활수급자및차상위계층전형은 어때?,ksat_basic,ksat_basic
+"fail",0.6411129236221313,기초생활수급자및차상위계층도 수능 지원할 수 있어?,ksat_basic,fallback_default
+"pass",0.885851263999939,기초생활수급자및차상위계층,ksat_basic,ksat_basic
+"pass",0.957219123840332,기초생활수급자및차상위계층 설명해줘,ksat_basic,ksat_basic
+"pass",0.9269039630889893,기초생활수급자및차상위계층전형 설명해줘,ksat_basic,ksat_basic
+"pass",0.9282922744750977,기초생활수급자및차상위계층 지원방법 설명해줘,ksat_basic,ksat_basic
+"pass",0.9869755506515503,기초생활수급자및차상위계층을 알려줘,ksat_basic,ksat_basic
+"pass",0.7289761304855347,차상위계층전형 알려줘,ksat_basic,ksat_basic
+"pass",0.9145973324775696,두드림소프트웨어,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.7516267895698547,수시 두드림소프트웨어,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.9651119709014893,두드림소프트웨어 설명해줘,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.9654074311256409,두드림소프트웨어 알려줘,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.9164323806762695,두드림소프트웨어가 뭐야,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.8538359999656677,수시 두드림소프트웨어 설명해줘,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.8148579597473145,수시 두드림소프트웨어 알려줘,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.8520805835723877,두드림소프트웨어전형,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.8824800252914429,불교추천,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.828220009803772,불교추천전형,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.833908200263977,수시 불교추천,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.8760836124420166,학교장추천,earlyadmission_principal,earlyadmission_principal
+"pass",0.8133098483085632,학교장추천전형,earlyadmission_principal,earlyadmission_principal
+"pass",0.8080146312713623,수시 학교장추천,earlyadmission_principal,earlyadmission_principal
+"pass",0.7196056246757507,수시 학교장추천전형,earlyadmission_principal,earlyadmission_principal
+"pass",0.808322012424469,두드림,earlyadmission_dodream,earlyadmission_dodream
+"pass",0.6882801055908203,두드림전형,earlyadmission_dodream,earlyadmission_dodream
+"fail",0.7583404779434204,수시 두드림전형,earlyadmission_dodream,earlyadmission
+"fail",0.7729646563529968,수시 두드림,earlyadmission_dodream,earlyadmission
+"pass",0.8029078841209412,두드림전형 설명해줘,earlyadmission_dodream,earlyadmission_dodream
+"pass",0.799160897731781,두드림전형 알려줘,earlyadmission_dodream,earlyadmission_dodream
+"fail",0.8305997848510742,수시 두드림전형 설명해줘,earlyadmission_dodream,earlyadmission
+"pass",0.6605286598205566,두드림전형을 알고싶은데,earlyadmission_dodream,earlyadmission_dodream
+"pass",0.8510923981666565,두드림 알려줄래?,earlyadmission_dodream,earlyadmission_dodream
+"fail",0.8908851146697998,수시 두드림 알려줘,earlyadmission_dodream,earlyadmission
+"pass",0.8363017439842224,고른기회,earlyadmission_regular,earlyadmission_regular
+"fail",0.5313908457756042,고른기회전형,earlyadmission_regular,fallback_default
+"pass",0.8303705453872681,고른기회가 뭐야?,earlyadmission_regular,earlyadmission_regular
+"fail",0.5632920265197754,고른기회전형 궁금하다,earlyadmission_regular,fallback_default
+"pass",0.9232693910598755,고른기회 설명해줘,earlyadmission_regular,earlyadmission_regular
+"pass",0.9648224115371704,고른기회 알려줘,earlyadmission_regular,earlyadmission_regular
+"fail",0.8006089925765991,수시 고른기회 설명해줘,earlyadmission_regular,earlyadmission
+"fail",0.8199300169944763,수시 고른기회 알려줘,earlyadmission_regular,earlyadmission
+"fail",0.7759193181991577,수시 고른기회전형 설명해줘,earlyadmission_regular,earlyadmission
+"fail",0.8085153102874756,수시 고른기회전형 알려줘,earlyadmission_regular,earlyadmission
+"pass",0.6600050330162048,고른기회전형 설명해줘,earlyadmission_regular,earlyadmission_regular
+"pass",0.6946182250976562,고른기회전형 알려줘,earlyadmission_regular,earlyadmission_regular
+"pass",0.9165126085281372,농어촌학생재학거주인정기준,note_farming,note_farming
+"pass",0.9202989339828491,농어촌학생재학거주인정기준이 뭐야?,note_farming,note_farming
+"pass",0.9276554584503174,농어촌학생재학거주인정기준은 어때?,note_farming,note_farming
+"pass",0.924924910068512,농어촌학생재학거주인정기준 궁금해,note_farming,note_farming
+"pass",0.9874746799468994,농어촌학생재학거주인정기준 알려줘,note_farming,note_farming
+"fail",0.4194498360157013,농어촌,note_farming,ksat_farming ,fallback_default
+"pass",0.9415743947029114,농어촌학생재학거주인정기준을 알려줄래?,note_farming,note_farming
+"pass",0.9361779689788818,특성화고교졸업자동일계열기준학과,note_special,note_special
+"pass",0.9258144497871399,특성화고교졸업자동일계열기준학과는 어떻지?,note_special,note_special
+"pass",0.9160637855529785,특성화고교졸업자동일계열기준학과가 궁금해,note_special,note_special
+"pass",0.8143315315246582,특성화고교졸업자 동일계열 기준학과는 뭐야?,note_special,note_special
+"pass",0.982225239276886,특성화고교졸업자동일계열기준학과 알려줘,note_special,note_special
+"pass",0.8883436918258667,재직기간산정기준,note_incumbent,note_incumbent
+"pass",0.9017198085784912,재직기간산정기준은 뭐야?,note_incumbent,note_incumbent
+"pass",0.9834465384483337,재직기간산정기준을 알려줘,note_incumbent,note_incumbent
+"pass",0.8883436918258667,재직기간산정기준,note_incumbent,note_incumbent
+"pass",0.9039660692214966,재직기간산정기준은 어떻게 돼?,note_incumbent,note_incumbent
+"pass",0.8258248567581177,서류종합평가,test_document,test_document
+"pass",0.8020799160003662,서류종합평가방식,test_document,test_document
+"pass",0.8057108521461487,서류종합평가의 기준은 뭐야?,test_document,test_document
+"pass",0.851108729839325,서류종합평가에는 뭐가 해당돼?,test_document,test_document
+"fail",0.5859158039093018,서류,test_document,fallback_default
+"pass",0.9304134249687195,서류종합평가방식 알려줘,test_document,test_document
+"pass",0.97662353515625,서류종합평가를 알려줘,test_document,test_document
+"pass",0.8406649231910706,서류종합평가 항목이 궁금해,test_document,test_document
+"pass",0.8280705809593201,면접평가,test_interview,test_interview
+"pass",0.8305284976959229,면접평가는 어떤 식으로 진행돼?,test_interview,test_interview
+"pass",0.9363093376159668,면접평가방식 알려줘,test_interview,test_interview
+"pass",0.9540314674377441,면접평가방법 알려줘,test_interview,test_interview
+"pass",0.828960657119751,학교생활기록부,test_records,test_records
+"fail",0.2884156405925751,생기부,test_records,fallback_default
+"pass",0.7881894707679749,학교생활기록부 평가,test_records,test_records
+"pass",0.7282925248146057,학교생활기록부 평가방식,test_records,test_records
+"pass",0.7673647999763489,학교생활기록부 평가방법,test_records,test_records
+"pass",0.965792179107666,학교생활기록부 알려줘,test_records,test_records
+"pass",0.7196643352508545,학교생활기록부는 어느 전형에 반영되지?,test_records,test_records
+"pass",0.7897827625274658,학교생활기록부 반영 항목이 뭐야?,test_records,test_records
+"pass",0.788263738155365,학교생활기록부 어떻게 평가해?,test_records,test_records
+"pass",0.860907793045044,학교생활기록부 평가방법 알려줘,test_records,test_records
+"pass",0.8087915182113647,대학수학능력시험성적,test_SAT,test_SAT
+"pass",0.8408971428871155,대학수학능력시험,test_SAT,test_SAT
+"fail",0.5620057582855225,수능,ksat,test_SAT,fallback_default
+"pass",0.7293341159820557,대학수학능력시험을 점수 반영해?,test_SAT,test_SAT
+"pass",0.8115698099136353,대학수학능력시험 평가방법,test_SAT,test_SAT
+"pass",0.772568941116333,대학수학능력시험 평가방식,test_SAT,test_SAT
+"pass",0.9079970717430115,대학수학능력시험 평가방법 알려줘,test_SAT,test_SAT
+"pass",0.8751147389411926,대학수학능력시험 평가방식 알려줘,test_SAT,test_SAT
+"pass",0.8079710602760315,대학수학능력시험평가방법,test_SAT,test_SAT
+"pass",0.7647081017494202,대학수학능력시험평가방식,test_SAT,test_SAT
+"pass",0.7888792157173157,대학수학능력시험등급,test_SAT,test_SAT
+"pass",0.4607718288898468,최저학력기준,fallback_default,fallback_default
+"pass",0.7528662085533142,대학수학능력시험 잘쳐야돼?,test_SAT,test_SAT
+"pass",0.6103379726409912,최저학력기준 알려줘,fallback_default,fallback_default
+"fail",0.3572693169116974,최저 알려줘,test_SAT,fallback_default
+"pass",0.4706645905971527,최저학력기준은 어때,fallback_default,fallback_default
+"pass",0.9440546035766602,재외국민/외국인일정을 좀 알려주겠어?,schedule_foreigner,schedule_foreigner
+"fail",0.8729567527770996,정시일정이 어떻게 돼?,ksat,schedule_ksat,schedule_ksat
+"fail",0.8618044257164001,정시일정이 궁금해,ksat,schedule_ksat,schedule_ksat
+"fail",0.9775678515434265,정시일정 알려줘,ksat,schedule_ksat,schedule_ksat
+"fail",0.8780074119567871,정시일정,ksat,schedule_ksat,schedule_ksat
+"fail",0.8788244724273682,수시일정,earlyadmission,schedule_earlyadmission,schedule_earlyadmission
+"fail",0.8780665397644043,수시일정은 어때?,earlyadmission,schedule_earlyadmission,schedule_earlyadmission
+"fail",0.9016523361206055,수시일정 좀 알려줄래?,earlyadmission,schedule_earlyadmission,schedule_earlyadmission
+"fail",0.780897319316864,수시일정은 언제부터 시작이야?,earlyadmission,schedule_earlyadmission,schedule_earlyadmission
+"pass",0.9697098731994629,전체모집요강 알려줘,total,total
+"pass",0.8798450231552124,전체모집요강이 뭐야?,total,total
+"pass",0.9792633652687073,전체모집요강을 알려줘,total,total
+"pass",0.9328030347824097,수시 알려줘,earlyadmission,earlyadmission
+"pass",0.9683874249458313,수시를 알려줘,earlyadmission,earlyadmission
+"pass",0.8222495317459106,수시가 궁금해,earlyadmission,earlyadmission
+"pass",0.9860630631446838,수시에 대해서 알려줘,earlyadmission,earlyadmission
+"pass",0.9240910410881042,정시 알려줘,ksat,ksat
+"pass",0.9544498920440674,정시를 알려줘,ksat,ksat
+"pass",0.7583790421485901,정시가 궁금해,ksat,ksat
+"pass",0.9800485968589783,정시에 대해서 알려줘,ksat,ksat
+"pass",0.8275506496429443,모집인원 몇 명?,recruit,recruit
+"pass",0.9807764291763306,모집인원을 알려줘,recruit,recruit
+"pass",0.8398885130882263,모집인원이 몇 명이지?,recruit,recruit
+"pass",0.9910666346549988,모집인원에 대해 알려줘,recruit,recruit
+"pass",0.8982224464416504,작년도경쟁률은 어때?,competition,competition
+"pass",0.9799058437347412,작년도경쟁률을 알려줘,competition,competition
+"pass",0.9728769063949585,작년도경쟁률에 대해 말해줘,competition,competition
+"pass",0.9778629541397095,작년도경쟁률 알려줘,competition,competition
+"pass",0.8673146963119507,지원자격유의사항은 뭐야?,note,note
+"pass",0.9872094988822937,지원자격유의사항을 알려줘,note,note
+"pass",0.9698928594589233,지원자격유의사항에 대해 말해줘,note,note
+"pass",0.8620449304580688,지원자격유의사항이 뭐뭐 있을까,note,note
+"pass",0.783214807510376,재외국민/외국인특별전형은 어떻게 돼?,foreign,foreign
+"pass",0.7611442804336548,재외국민/외국인특별전형에 해당되는지 궁금해,foreign,foreign
+"pass",0.860123872756958,재외국민/외국인특별전형 알려줘,foreign,foreign
+"pass",0.7935832738876343,재외국민/외국인특별전형이 궁금해,foreign,foreign
+"pass",0.7160235047340393,재외국민/외국인특별전형으로 갈 수 있을까?,foreign,foreign
+"pass",0.9842530488967896,전형요소별평가방법을 알려줘,test,test
+"pass",0.8895508050918579,전형요소별평가방법이 어떻게 진행되는지 알아?,test,test
+"pass",0.9016017913818359,전형요소별평가방법에 대해서 궁금해,test,test
+"pass",0.8960323333740234,전형요소별평가방법으로는 뭐가 있어,test,test
+"pass",0.9546301364898682,전형요소별평가방법은 어떤지 알려줘,test,test
+"pass",0.976233959197998,전형일정 알려줘,schedule,schedule
+"pass",0.8558734655380249,전형일정이 궁금해,schedule,schedule
+"pass",0.8380030393600464,전형일정은 어떻게 돼?,schedule,schedule
+"pass",0.9874386787414551,전형일정에 대해 알려줘,schedule,schedule
+"pass",0.893506646156311,전형일정을 알고싶어,schedule,schedule
+"fail",0.9654074311256409,두드림소프트웨어 알려줘,earlyadmission_dodream,earlyadmission_dodreamsoft
+"fail",0.8907919526100159,두드림소프트웨어가 궁금해,earlyadmission_dodream,earlyadmission_dodreamsoft
+"fail",0.9233424067497253,두드림소프트웨어는 어떻게 돼?,earlyadmission_dodream,earlyadmission_dodreamsoft
+"fail",0.9947600364685059,두드림소프트웨어에 대해 알려줘,earlyadmission_dodream,earlyadmission_dodreamsoft
+"fail",0.9382191896438599,두드림소프트웨어를 알고싶어,earlyadmission_dodream,earlyadmission_dodreamsoft
+"pass",0.9553940892219543,두드림을 알려줘,earlyadmission_dodream,earlyadmission_dodream
+"fail",0.59958815574646,두드림 전형이 궁금해,earlyadmission_dodream,fallback_default
+"pass",0.8311010599136353,두드림은 어떻게 돼?,earlyadmission_dodream,earlyadmission_dodream
+"pass",0.9880492687225342,두드림에 대해 알려줘,earlyadmission_dodream,earlyadmission_dodream
+"pass",0.8466870784759521,두드림을 알고싶어,earlyadmission_dodream,earlyadmission_dodream
+"pass",0.9388823509216309,불교추천 전형을 알려줘,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.9584667682647705,불교추천을 설명해줘,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.8676081299781799,불교추천이 뭐야?,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.9923986196517944,불교추천에 대해 알려줘,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.9181134700775146,불교추천을 알고싶어,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.8896133303642273,학교장추천 전형을 알려줘,earlyadmission_principal,earlyadmission_principal
+"pass",0.9408179521560669,학교장추천을 설명해줘,earlyadmission_principal,earlyadmission_principal
+"pass",0.8607091903686523,학교장추천이 뭐야?,earlyadmission_principal,earlyadmission_principal
+"pass",0.9911521673202515,학교장추천에 대해 알려줘,earlyadmission_principal,earlyadmission_principal
+"pass",0.9035914540290833,학교장추천을 알고싶어,earlyadmission_principal,earlyadmission_principal
+"pass",0.6868833899497986,고른기회 전형이 뭐야?,earlyadmission_regular,earlyadmission_regular
+"pass",0.872281014919281,고른기회는 어때?,earlyadmission_regular,earlyadmission_regular
+"fail",0.6053511500358582,고른기회전형이 뭔지 궁금해,earlyadmission_regular,fallback_default
+"pass",0.8974919319152832,고른기회에 해당되는지 알려줘,earlyadmission_regular,earlyadmission_regular
+"pass",0.9275511503219604,고른기회를 설명해봐,earlyadmission_regular,earlyadmission_regular
+"pass",0.8607810735702515,논술 전형을 설명해줘,earlyadmission_essay,earlyadmission_essay
+"pass",0.700119137763977,논술 언제야?,earlyadmission_essay,earlyadmission_essay
+"pass",0.9846988916397095,논술에 대해서 알려줘,earlyadmission_essay,earlyadmission_essay
+"pass",0.7884633541107178,논술은 어떻게 하는거지?,earlyadmission_essay,earlyadmission_essay
+"fail",0.6011104583740234,논술을 잘 모르겠어,earlyadmission_essay,fallback_default
+"pass",0.9640819430351257,일반전형 알려줘,ksat_normal,ksat_normal
+"pass",0.8564149141311646,일반전형은 어때,ksat_normal,ksat_normal
+"pass",0.8374321460723877,일반전형이 뭐야,ksat_normal,ksat_normal
+"pass",0.902604341506958,일반전형을 알고싶어,ksat_normal,ksat_normal
+"fail",0.9751014113426208,농어촌전형 알려줘,note_farming,ksat_farming
+"fail",0.8459470272064209,농어촌전형은 어떻게 돼?,note_farming,ksat_farming
+"fail",0.8210122585296631,농어촌전형에 해당되는지 궁금해,note_farming,ksat_farming
+"fail",0.8246686458587646,농어촌전형이 어떤 전형이야?,note_farming,ksat_farming
+"pass",0.8737010955810547,특성화고교 졸업자 통합계열 기준학과 좀 알려줘,note_special,note_special
+"fail",0.9092145562171936,특성화고교 전형을 알려줘,note_special,ksat_specialized
+"fail",0.6814640164375305,특성화고는 전형이 따로 있나?,note_special,ksat_specialized
+"fail",0.685711145401001,재직자인데 관련 전형을 알고 싶어,note_incumbent,ksat_incumbent
+"fail",0.6875860691070557,재직자는 어떤 전형이 있을까?,note_incumbent,ksat_incumbent
+"fail",0.8203818798065186,재직자 전형 알려줘,note_incumbent,ksat_incumbent
+"fail",0.8531577587127686,재직자에 대해 궁금해,note_incumbent,ksat_incumbent
+"pass",0.8988864421844482,기초생활수급자및차상위계층 전형 설명해줘,ksat_basic,ksat_basic
+"pass",0.7285840511322021,기초생활수급자및차상위계층은 어떤 전형에 지원이 가능해?,ksat_basic,ksat_basic
+"pass",0.9063726663589478,기초생활수급자및차상위계층에 해당돼,ksat_basic,ksat_basic
+"pass",0.9121810793876648,기초생활수급자및차상위계층이야,ksat_basic,ksat_basic
+"pass",0.9869755506515503,기초생활수급자및차상위계층을 알려줘,ksat_basic,ksat_basic
+"pass",0.9266736507415771,농어촌학생재학거주인정기준 어떻게 돼?,note_farming,note_farming
+"pass",0.9891793727874756,농어촌학생재학거주인정기준을 알려줘,note_farming,note_farming
+"pass",0.8968567848205566,특성화고교졸업자통합계열기준학과가 뭐뭐 있지?,note_special,note_special
+"pass",0.8800556659698486,특성화고교졸업자통합계열기준학과에 해당되는데 유의사항 있을까?,note_special,note_special
+"pass",0.8672192096710205,재직기간산정기준 있나요?,note_incumbent,note_incumbent
+"pass",0.7578552961349487,제직기간간정기준이 어떻게 될까,note_incumbent,note_incumbent
+"pass",0.8426467776298523,서류종합평가 방법이 궁금해,test_document,test_document
+"pass",0.9237486124038696,서류종합평가 방식을 알려줘,test_document,test_document
+"pass",0.8084726333618164,서류종합평가는 어떻게 진행돼?,test_document,test_document
+"fail",0.6812875270843506,수시에서 면접평가 해?,earlyadmission,test_interview,test_interview
+"pass",0.8593884706497192,면접평가는 어떻게 돼?,test_interview,test_interview
+"pass",0.9220391511917114,면접평가 기준에 대해서 알려줘,test_interview,test_interview
+"pass",0.7903101444244385,학교생활기록부 반영방법,test_records,test_records
+"pass",0.7727906107902527,학교생활기록부에 어떤게 반영이 돼?,test_records,test_records
+"pass",0.9549437761306763,대학수학능력시험 알려줘,test_SAT,test_SAT
+"pass",0.9321744441986084,대학수학능력시험에 대해 알고싶어,test_SAT,test_SAT
+"pass",0.837761402130127,특수교육대상자에 해당되는 게 있을까?,earlyadmission_special,earlyadmission_special
+"fail",0.6026740670204163,특수교육대상자에게 해당되는 전형이 수시에 있어?,earlyadmission_special,fallback_default
+"pass",0.6858279705047607,실기는 어느 전형이야?,earlyadmission_performance,earlyadmission_performance
+"pass",0.8308318853378296,실기를 준비하고 싶은데 실기에 관련한 정보를 제공해줘,earlyadmission_performance,earlyadmission_performance
+"fail",0.8767062425613403,수시경쟁률은 어때?,earlyadmission,competition_earlyadmission,competition_earlyadmission
+"fail",0.8525124788284302,수시경쟁률은 어느정도야?,earlyadmission,competition_earlyadmission,competition_earlyadmission
+"fail",0.8719809055328369,수시경쟁률을 보고싶어,earlyadmission,competition_earlyadmission,competition_earlyadmission
+"fail",0.8641291856765747,정시경쟁률은 어때?,ksat,competition_ksat,competition_ksat
+"fail",0.8473823070526123,정시경쟁률은 어느정도야?,ksat,competition_ksat,competition_ksat
+"fail",0.851847767829895,정시경쟁률을 보고싶어,ksat,competition_ksat,competition_ksat
+"pass",0.38358259201049805,고마워,fallback_default,fallback_default
+"pass",0.4156189560890198,알겠어,fallback_default,fallback_default
+"pass",0.8798450231552124,전체모집요강이 뭐야?,total,total
+"pass",0.9697098731994629,전체모집요강 알려줘,total,total
+"pass",0.9697098731994629,전체모집요강 알려줘,total,total
+"pass",0.9234268069267273,전체모집요강 보여줘,total,total
+"fail",0.7838643789291382,모집 공지 알려줄래?,total,recruit
+"pass",0.8726794719696045,수시를 알고싶어,earlyadmission,earlyadmission
+"pass",0.9328030347824097,수시 알려줘,earlyadmission,earlyadmission
+"pass",0.9273725748062134,수시전형 알려줘,earlyadmission,earlyadmission
+"pass",0.9043998718261719,수시에 대해서 알고싶어,earlyadmission,earlyadmission
+"pass",0.8674207925796509,수시전형에 대해서 알고싶어,earlyadmission,earlyadmission
+"pass",0.7651643753051758,수시 지원하고싶어,earlyadmission,earlyadmission
+"pass",0.7367666959762573,수시,earlyadmission,earlyadmission
+"pass",0.7643824815750122,수시 전형,earlyadmission,earlyadmission
+"fail",0.8800674676895142,정시전형 알려줘,ksat,competition_ksat
+"pass",0.9240910410881042,정시 알려줘,ksat,ksat
+"pass",0.8805664777755737,정시에 대해서 알고싶어,ksat,ksat
+"fail",0.842026948928833,정시전형에 대해서 알고싶어,ksat,competition_ksat
+"pass",0.7283393144607544,정시 지원하고싶어,ksat,ksat
+"pass",0.714529275894165,정시,ksat,ksat
+"fail",0.5620057582855225,수능,ksat,fallback_default
+"fail",0.7440844774246216,정시전형,ksat,competition_ksat
+"pass",0.8398885130882263,모집인원이 몇 명이지?,recruit,recruit
+"pass",0.8546368479728699,모집인원 어때?,recruit,recruit
+"pass",0.7800742983818054,몇 명 모집해?,recruit,recruit
+"pass",0.9131070375442505,모집인원 알고싶어,recruit,recruit
+"pass",0.8247331380844116,모집인원,recruit,recruit
+"pass",0.8982224464416504,작년도경쟁률은 어때?,competition,competition
+"pass",0.9369721412658691,작년도경쟁률 알고싶어,competition,competition
+"pass",0.9778629541397095,작년도경쟁률 알려줘,competition,competition
+"pass",0.7216808795928955,경쟁률 알려줘,competition,competition
+"pass",0.8409809470176697,지원자격유의사항 있어?,note,note
+"pass",0.7172112464904785,지원 시 유의점은 뭐야?,note,note
+"pass",0.9336301684379578,지원자격유의사항 말해줘,note,note
+"pass",0.8608942031860352,지원자격유의사항유의사항,note,note
+"pass",0.8610813021659851,외국인특별전형,foreign,foreign
+"pass",0.9729762077331543,외국인특별전형 알려줘,foreign,foreign
+"pass",0.8275356888771057,외국인특별전형 지원할 수 있어?,foreign,foreign
+"pass",0.8275356888771057,외국인특별전형 지원할 수 있어?,foreign,foreign
+"fail",0.6175346970558167,외국인은 어떻게 지원해?,foreign,fallback_default
+"pass",0.8788557052612305,외국인특별전형 궁금해,foreign,foreign
+"pass",0.8812133073806763,외국인특별전형은 어때?,foreign,foreign
+"fail",0.4504232108592987,how to apply,foreign,fallback_default
+"pass",0.9893790483474731,전형요소별평가방법 알려줘,test,test
+"pass",0.9317800998687744,전형요소별평가방법 알고싶어,test,test
+"pass",0.8916604518890381,전형요소별평가방법 ,test,test
+"fail",0.6077091097831726,어떻게 평가해?,test,fallback_default
+"pass",0.8439786434173584,전형일정 어떻게 돼?,schedule,schedule
+"pass",0.976233959197998,전형일정 알려줘,schedule,schedule
+"pass",0.8545143604278564,전형일정,schedule,schedule
+"pass",0.8558734655380249,전형일정이 궁금해,schedule,schedule
+"pass",0.939749002456665,일반전형 설명해줘,ksat_normal,ksat_normal
+"pass",0.8336755633354187,일반전형은 뭐야?,ksat_normal,ksat_normal
+"pass",0.8268700838088989,일반전형,ksat_normal,ksat_normal
+"fail",0.7187848687171936,정시일반전형,ksat_normal,competition_ksat
+"pass",0.850875735282898,일반전형은 어떻지?,ksat_normal,ksat_normal
+"pass",0.8311724662780762,농어촌전형,ksat_farming,ksat_farming
+"pass",0.9498271942138672,농어촌전형 설명해줘,ksat_farming,ksat_farming
+"pass",0.9751014113426208,농어촌전형 알려줘,ksat_farming,ksat_farming
+"pass",0.953911542892456,농어촌전형을 설명해줘,ksat_farming,ksat_farming
+"pass",0.8612849116325378,농어촌전형 알고싶은데,ksat_farming,ksat_farming
+"pass",0.8510535359382629,특성화고교,ksat_specialized,ksat_specialized
+"pass",0.8153649568557739,특성화고교전형,ksat_specialized,ksat_specialized
+"pass",0.91629958152771,특성화고교전형 설명해줘,ksat_specialized,ksat_specialized
+"pass",0.9293648600578308,특성화고교전형 알려줘,ksat_specialized,ksat_specialized
+"fail",0.7303207516670227,정시 특성화고교전형,ksat_specialized,note_special
+"pass",0.8003677725791931,정시 특성화고교전형 설명해줘,ksat_specialized,ksat_specialized
+"pass",0.8210244178771973,정시 특성화고교전형 알려줘,ksat_specialized,ksat_specialized
+"pass",0.7665013670921326,재직자,ksat_incumbent,ksat_incumbent
+"pass",0.707604169845581,재직자전형,ksat_incumbent,ksat_incumbent
+"pass",0.8213176727294922,재직자전형 설명해줘,ksat_incumbent,ksat_incumbent
+"pass",0.8457338213920593,재직자전형 알려줘,ksat_incumbent,ksat_incumbent
+"pass",0.6915394067764282,재직자는 지원가능할까?,ksat_incumbent,ksat_incumbent
+"fail",0.7881934642791748,정시 재직자전형 설명해줘,ksat_incumbent,ksat
+"fail",0.8088105916976929,정시 재직자전형 알려줘,ksat_incumbent,competition_ksat
+"pass",0.7837916016578674,기초생활수급자,ksat_basic,ksat_basic
+"pass",0.7905097007751465,기초생활수급자및차상위계층전형은 어때?,ksat_basic,ksat_basic
+"fail",0.6411129236221313,기초생활수급자및차상위계층도 수능 지원할 수 있어?,ksat_basic,fallback_default
+"pass",0.885851263999939,기초생활수급자및차상위계층,ksat_basic,ksat_basic
+"pass",0.957219123840332,기초생활수급자및차상위계층 설명해줘,ksat_basic,ksat_basic
+"pass",0.9269039630889893,기초생활수급자및차상위계층전형 설명해줘,ksat_basic,ksat_basic
+"pass",0.9282922744750977,기초생활수급자및차상위계층 지원방법 설명해줘,ksat_basic,ksat_basic
+"pass",0.9869755506515503,기초생활수급자및차상위계층을 알려줘,ksat_basic,ksat_basic
+"pass",0.7289761304855347,차상위계층전형 알려줘,ksat_basic,ksat_basic
+"pass",0.9145973324775696,두드림소프트웨어,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.7516267895698547,수시 두드림소프트웨어,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.9651119709014893,두드림소프트웨어 설명해줘,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.9654074311256409,두드림소프트웨어 알려줘,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.9164323806762695,두드림소프트웨어가 뭐야,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.8538359999656677,수시 두드림소프트웨어 설명해줘,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.8148579597473145,수시 두드림소프트웨어 알려줘,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.8520805835723877,두드림소프트웨어전형,earlyadmission_dodreamsoft,earlyadmission_dodreamsoft
+"pass",0.8824800252914429,불교추천,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.828220009803772,불교추천전형,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.833908200263977,수시 불교추천,earlyadmission_buddhism,earlyadmission_buddhism
+"pass",0.8760836124420166,학교장추천,earlyadmission_principal,earlyadmission_principal
+"pass",0.8133098483085632,학교장추천전형,earlyadmission_principal,earlyadmission_principal
+"pass",0.8080146312713623,수시 학교장추천,earlyadmission_principal,earlyadmission_principal
+"pass",0.7196056246757507,수시 학교장추천전형,earlyadmission_principal,earlyadmission_principal
+"pass",0.808322012424469,두드림,earlyadmission_dodream,earlyadmission_dodream
+"pass",0.6882801055908203,두드림전형,earlyadmission_dodream,earlyadmission_dodream
+"fail",0.7583404779434204,수시 두드림전형,earlyadmission_dodream,earlyadmission
+"fail",0.7729646563529968,수시 두드림,earlyadmission_dodream,earlyadmission
+"pass",0.8029078841209412,두드림전형 설명해줘,earlyadmission_dodream,earlyadmission_dodream
+"pass",0.799160897731781,두드림전형 알려줘,earlyadmission_dodream,earlyadmission_dodream
+"fail",0.8305997848510742,수시 두드림전형 설명해줘,earlyadmission_dodream,earlyadmission
+"pass",0.6605286598205566,두드림전형을 알고싶은데,earlyadmission_dodream,earlyadmission_dodream
+"pass",0.8510923981666565,두드림 알려줄래?,earlyadmission_dodream,earlyadmission_dodream
+"fail",0.8908851146697998,수시 두드림 알려줘,earlyadmission_dodream,earlyadmission
+"pass",0.8363017439842224,고른기회,earlyadmission_regular,earlyadmission_regular
+"fail",0.5313908457756042,고른기회전형,earlyadmission_regular,fallback_default
+"pass",0.8303705453872681,고른기회가 뭐야?,earlyadmission_regular,earlyadmission_regular
+"fail",0.5632920265197754,고른기회전형 궁금하다,earlyadmission_regular,fallback_default
+"pass",0.9232693910598755,고른기회 설명해줘,earlyadmission_regular,earlyadmission_regular
+"pass",0.9648224115371704,고른기회 알려줘,earlyadmission_regular,earlyadmission_regular
+"fail",0.8006089925765991,수시 고른기회 설명해줘,earlyadmission_regular,earlyadmission
+"fail",0.8199300169944763,수시 고른기회 알려줘,earlyadmission_regular,earlyadmission
+"fail",0.7759193181991577,수시 고른기회전형 설명해줘,earlyadmission_regular,earlyadmission
+"fail",0.8085153102874756,수시 고른기회전형 알려줘,earlyadmission_regular,earlyadmission
+"pass",0.6600050330162048,고른기회전형 설명해줘,earlyadmission_regular,earlyadmission_regular
+"pass",0.6946182250976562,고른기회전형 알려줘,earlyadmission_regular,earlyadmission_regular
+"pass",0.9165126085281372,농어촌학생재학거주인정기준,note_farming,note_farming
+"pass",0.9202989339828491,농어촌학생재학거주인정기준이 뭐야?,note_farming,note_farming
+"pass",0.9276554584503174,농어촌학생재학거주인정기준은 어때?,note_farming,note_farming
+"pass",0.924924910068512,농어촌학생재학거주인정기준 궁금해,note_farming,note_farming
+"pass",0.9874746799468994,농어촌학생재학거주인정기준 알려줘,note_farming,note_farming
+"fail",0.4194498360157013,농어촌,note_farming,fallback_default
+"pass",0.9415743947029114,농어촌학생재학거주인정기준을 알려줄래?,note_farming,note_farming
+"pass",0.9361779689788818,특성화고교졸업자동일계열기준학과,note_special,note_special
+"pass",0.9258144497871399,특성화고교졸업자동일계열기준학과는 어떻지?,note_special,note_special
+"pass",0.9160637855529785,특성화고교졸업자동일계열기준학과가 궁금해,note_special,note_special
+"pass",0.8143315315246582,특성화고교졸업자 동일계열 기준학과는 뭐야?,note_special,note_special
+"pass",0.982225239276886,특성화고교졸업자동일계열기준학과 알려줘,note_special,note_special
+"pass",0.8883436918258667,재직기간산정기준,note_incumbent,note_incumbent
+"pass",0.9017198085784912,재직기간산정기준은 뭐야?,note_incumbent,note_incumbent
+"pass",0.9834465384483337,재직기간산정기준을 알려줘,note_incumbent,note_incumbent
+"pass",0.8883436918258667,재직기간산정기준,note_incumbent,note_incumbent
+"pass",0.9039660692214966,재직기간산정기준은 어떻게 돼?,note_incumbent,note_incumbent
+"pass",0.8258248567581177,서류종합평가,test_document,test_document
+"pass",0.8020799160003662,서류종합평가방식,test_document,test_document
+"pass",0.8057108521461487,서류종합평가의 기준은 뭐야?,test_document,test_document
+"pass",0.851108729839325,서류종합평가에는 뭐가 해당돼?,test_document,test_document
+"pass",0.13624535501003265,해당 그림을 보면 디즈니 공주들이 브리트니 스피어스의 앨범이나 뮤직비디오, 화보 속 모습을 똑같이 재연했다.,fallback_default,fallback_default
+"pass",0.20238903164863586,최근 우리는 과거로부터 이어져온 각종 적폐의 흔적들이 세월이 흘러도 후손들에게 상처로 남는다는 교훈을 얻었습니다.,fallback_default,fallback_default
+"fail",0.3447387218475342,이날 경연에는 곽진언 씨, 김필 씨, 송유빈 군, 장우람 씨, 밴드 '버스터리드', 임도혁 씨가 출전했다., fallback_default,fallback_default
+"pass",0.42274409532546997,만약 직장가입자가 근로소득 외에 사업소득, 이자, 배당, 임대소득 등을 합친 종합소득이 7천200만원을 넘는 경우 추가로 최대 230만원까지 보험료가 부과된다.,fallback_default,fallback_default
+"pass",0.27003753185272217,전문가들이 초기 대응의 중요성을 강조하지만, 응급 처치는 전문가나 119구급대에 맡겨야 한다는 잘못된 인식 때문에 일반인들은 여전히 심폐소생술을 꺼리고 있다.,fallback_default,fallback_default
+"pass",0.1993194818496704,검찰은 재판과정에서 전 전 대통령 일가가 숨겨놓은 재산이 아직도 수백억 원에 달한다고 밝혔다.,fallback_default,fallback_default
+"pass",0.24654671549797058,우선 열차 증차 시기를 애초 계획한 2018년에서 1년 앞당겨 2017년까지 70량을 늘리기로 했다.,fallback_default,fallback_default
+"pass",0.10339470952749252,그는 가까스로 구조돼 응급실로 옮겨졌고 이날 바타클랑에서는 이번 동시 다발 테러에서 가장 많은 100여 명의 사상자가 발생했다.,fallback_default,fallback_default
+"pass",0.29507508873939514,섬에 갇힌 채 홍씨의 염전에서 수년간 일하던 김씨 등은 김씨가 서울에 있는 어머니에게 보낸 편지가 경찰에 전달돼 2013년 2월 구출됐다.,fallback_default,fallback_default
+"pass",0.11906743794679642,길을 건너던 50대 여성이 두 차례 뺑소니 사고를 당한 뒤 또 다시 차량에 치여 숨지는 안타까운 사고가 발생했다.,fallback_default,fallback_default
+"pass",0.24300053715705872,아이는 예정보다 일찍 태어나 병원에서 치료를 받던 상황이었다.,fallback_default,fallback_default
+"pass",0.1517028957605362,이 불이 빠르게 번지며 주변 점포 5개가 불 탔고 6개 점포는 부분적으로 소실됐다.,fallback_default,fallback_default
