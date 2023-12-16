@@ -56,8 +56,11 @@ public class MainController {
 
         if (receivedPassword.equals(storedPassword)) {
             response.put("success", true);
+            httpSession.setAttribute("pwSuccess",true);
+
         } else {
             response.put("success", false);
+            httpSession.setAttribute("pwSuccess",false);
         }
 
         return response;
