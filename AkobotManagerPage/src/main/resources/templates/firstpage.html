@@ -1,25 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Akobot Management system</title>
 </head>
 <style>
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 105vh;
+        background: #FF9E51;
+        margin: -3mm;
+    }
+
+    h1{
+        text-align: center;
+    }
+
     .content {
         font-family: system-ui, serif;
         font-size: 1rem;
         padding: 2rem;
         border-radius: 2rem;
         background: #ffffff;
+        max-width: 800px;
+        width: 80%;
+        height: 80vh;
+        margin: 0 auto;
     }
-    .wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        background : #b5fada;
+
+    #img {
+        width: 50%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    @media screen and (max-width: 768px) {
+        .content {
+            font-size: 0.8rem;
+            max-width: 100%;
+
+        }
+
+        #Question {
+            width: 100%;
+            box-sizing: border-box;
+            resize: none;
+            min-height: 100px;
+            max-height: 200px;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .content {
+            font-size: 0.8rem;
+            max-width: 90%;
+        }
+
+        #Question {
+            width: 100%;
+            box-sizing: border-box;
+            resize: none;
+            min-height: 100px;
+            max-height: 200px;
+        }
     }
 </style>
+
 <body>
 <div class = "wrapper">
 <div class = "content" style="text-align : center;">
@@ -59,4 +108,5 @@
 </div>
 </div>
 </body>
+
 </html>
