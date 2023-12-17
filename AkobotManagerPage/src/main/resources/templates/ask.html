@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Akobot question form</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+</head>
+<style>
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 130vh;
+        background: #FF9E51;
+        margin: -3mm;
+    }
+
+    .content {
+        font-family: system-ui, serif;
+        font-size: 1rem;
+        padding: 2rem;
+        border-radius: 2rem;
+        background: #ffffff;
+        max-width: 800px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #img {
+        width: 50%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    button {
+        background-color: #E1E1E1;
+        padding: 10px 20px;
+        border-radius: 15px;
+        cursor: pointer;
+        display: block;
+        margin: 20px auto;
+        border: 2px solid #000;
+    }
+
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal .bg {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .modalBox {
+        position: absolute;
+        background-color: #fff;
+        width: 400px;
+        height: 200px;
+        padding: 15px;
+    }
+
+    .modalBox button {
+        display: block;
+        width: 80px;
+        margin: 0 auto;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    @media screen and (max-width: 768px) {
+        .content {
+            font-size: 0.8rem;
+            max-width: 100%;
+
+        }
+
+        #Question {
+            width: 100%;
+            box-sizing: border-box;
+            resize: none;
+            min-height: 100px;
+            max-height: 200px;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .content {
+            font-size: 0.8rem;
+            max-width: 90%;
+        }
+
+        #Question {
+            width: 100%;
+            box-sizing: border-box;
+            resize: none;
+            min-height: 100px;
+            max-height: 200px;
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+</style>
+
+<body>
+<div class="wrapper">
+    <div class="content" style="text-align : center;">
+        <img src="../static/img/cute.png"/>
+        <p>
+            질문을 등록해 주셔서 감사합니다.
+        </p>
+
+        <p>
+            등록하신 질문에 대한 답변은 조속히 제공될 예정입니다.<br> 답변을 원하시거나 더 빠른 도움이 필요하시면 동국대학교 입학처로 직접 연락 주시면 감사하겠습니다.
+        </p>
+
+        <p>
+            <b>동국대학교 입학처 연락처: <u>02-2260-8861</u></b>
+        </p>
+
+        <p>
+            여러분의 합격을 진심으로 응원합니다!
+        </p>
+
+
+        <!--액션 설정해줄것-->
+        <form method="post" action="/add" name="removefrm">
+            <div class="content" style="text-align : left;">
+                <label for="Name">이&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp름 : </label>
+                <input type="text" name="name" id="Name" />
+                <br><br>
+                <label for="Email">이메일 주소 : </label>
+                <input type="text" name="email" id="Email" />
+                <br><br>
+                <label for="Question">질문</label><br>
+                <textarea name="question" rows="10" cols="100" id="Question"></textarea>
+                <br>
+                <button class="openBtn" onclick="javascript:check_c()"><b>제출</b></button>
+                <script>
+                    const open = () => {
+                        document.querySelector(".modal").classList.remove("hidden");
+                    }
+
+                    const close = () => {
+                        document.querySelector(".modal").classList.add("hidden");
+                    }
+
+                    function check_c() {
+                        alert("제출이 완료되었습니다!");
+                    }
+
+                    document.querySelector(".openBtn").addEventListener("click", open);
+                    document.querySelector(".closeBtn").addEventListener("click", close);
+                    document.querySelector(".bg").addEventListener("click", close);
+
+                </script>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
