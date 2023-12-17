@@ -3,7 +3,6 @@ import pickle
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# 임시!!!!! usr_input="수시 논술 알려줘"
 usr_input = sys.argv[1]
 # usr_input = input("사용자 문장: ")
 
@@ -40,18 +39,6 @@ with open('/Akobot/src/main/resources/chatbot/intents.pkl', 'rb') as file:
 
     matchings.append(matched_intent)
     matchings.append(matched_level)
-
-# 매칭된 인텐트 중 포함관계 존재시, 상위인텐트 제거
-'''
-# 매칭 결과에 1과 2이상의 레벨 인텐트가 존재하는 경우,
-# 둘의 이름을 비교하여 직속 상/하위 여부 판단 후,
-# 만약 직속 상관관계를 가진다면 레벨이 1인 인텐트를 제거
-'''
-# for element in matchings:
-#     if element[1] == 1:  # 레벨이 1
-#         for another in matchings:
-#             if another[1] > 1 and (element[0] in another[0]):
-#                 matchings.remove(element)
 
 # 최종 매칭된 인텐트 [인텐트 영문명, 영어 레벨] 출력
 print(matchings)
