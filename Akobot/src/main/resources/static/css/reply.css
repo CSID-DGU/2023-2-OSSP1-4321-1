@@ -1,13 +1,19 @@
 /* style user response reply */
 .bubble.reply {
-  background: transparent;
+  /*질문 말풍선 설정들 추가*/
+  background: rgba(255, 190, 130, 1);
+  border-radius: 15px 4px 15px 15px;
   box-shadow: none;
   float: right;
   position: relative;
-  transform-origin: right top;
-  margin: 8px 0 10px;
-  padding: 0;
+  margin: 20px 0px 20px;
+  padding: 8x 16px;
   max-width: 65%;
+  box-sizing: content-box;
+  clear: both;
+  line-height: 1.5em;
+  word-break: break-word;
+  transition: all 200ms;
 }
 .bubble.reply.history {
   margin: 0 0 2px 0; /* remembered bubbles do not need to stand out via margin */
@@ -33,7 +39,7 @@
   transition: all 200ms;
   text-decoration: none;
   word-break: normal;
-	box-sizing: content-box;
+  box-sizing: content-box;
   /* animation-duration: 1s; */
   animation-name: "animate-reply";
   animation-play-state: paused;

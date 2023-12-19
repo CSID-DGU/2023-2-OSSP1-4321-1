@@ -2,7 +2,7 @@
 
 #modal.modal-overlay {
     width: 100%;
-    height: 100%;
+    height: 110%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -12,7 +12,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.15);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(1.5px);
     -webkit-backdrop-filter: blur(1.5px);
@@ -20,23 +20,27 @@
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 #modal .modal-window {
-    background: rgba( 255, 165, 0, 0.70 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    /*background: #FF9E51;*/
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 10px 12px 12px -12px #4C4C4C;
     backdrop-filter: blur( 13.5px );
     -webkit-backdrop-filter: blur( 13.5px );
-    border-radius: 10px;
+    border-radius: 15px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     width: 400px;
     height: 510px;
     position: relative;
-    top: -100px;
-    padding: 10px;
+    top: -50px;
+    padding: 5px;
 }
 #modal .title {
-    padding-left: 10px;
+    padding-left: 16px;
     display: inline;
-    text-shadow: 1px 1px 2px gray;
-    color: white;
+    float: left;
+    padding-top: 13px;
+    text-shadow: 2px 2px 2px lightgray;
+    color: #FE9443;
+    font-size: 120%;
 
 }
 #modal .title h2 {
@@ -45,10 +49,14 @@
 #modal .close-area {
     display: inline;
     float: right;
-    padding-right: 10px;
+    padding-top: 15px;
+    padding-right: 18px;
     cursor: pointer;
-    text-shadow: 1px 1px 2px gray;
-    color: white;
+    text-shadow: 1px 1px 2px lightgray;
+    color: #FE9443;
+    position: relative;
+    z-index: 15000; /* Close 버튼을 맨 앞으로 두기 */
+    font-size: 140%;
 }
 
 #modal .content {
