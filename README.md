@@ -19,7 +19,7 @@ Akobot은 동국대학교 입시정보를 챗봇으로 제공하는 서비스입
 
 [아코봇 관리자 페이지 화면 구성](#아코봇-관리자-페이지-화면-구성) 
 
-[©️ 라이센스](#-라이센스) 
+[라이센스](#라이센스) 
 
 [기술 스택](#기술-스택)
 
@@ -67,7 +67,7 @@ Akobot은 동국대학교 입시정보를 챗봇으로 제공하는 서비스입
 ![관리자페이지에답변화면](https://github.com/CSID-DGU/2023-2-OSSP1-4321-1/assets/121176513/62a7c63e-4788-46f2-9994-988b05293e10)
 등록된 질문이 질문 조회 게시판에서 조회되고, 관리자는 답변 메일을 작성할 수 있습니다.
 
-## ©️ 라이센스
+## 라이센스
 
 MIT License
 
@@ -91,7 +91,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## 🔧 기술 스택
+## 기술 스택
 
 
 ### Environment
