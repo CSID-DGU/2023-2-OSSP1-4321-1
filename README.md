@@ -51,16 +51,21 @@ Akobot은 동국대학교 입시정보를 챗봇으로 제공하는 서비스입
 
 ## 아코봇 실행 예시
 
+![오타입력시결과화면](https://github.com/CSID-DGU/2023-2-OSSP1-4321-1/assets/121176513/39dae6f8-8266-4157-878b-ed839f6d178c)
+오타를 입력했을 때의 답변
+![줄임말입력시결과화면](https://github.com/CSID-DGU/2023-2-OSSP1-4321-1/assets/121176513/57468914-4637-42a5-91bd-6d162806867b)
+오타를 입력했을 때의 답변
+
+‘지원유이사항’, ‘수시견쟁률’, ‘오;국인특별전형’ 등 실제 발생할만한 오타들이나 ‘수능’, ‘생기부’ 등 입시 관련해 자주 쓰이는 줄임말의 경우에도 정확한 답변을 제공합니다. 또한 ‘경쟁률’이나 ‘일정’과 같이 입력 키워드와 인텐트가 정확히 일치하지 않아도 의미는 동일한 단어들에 대해서 답변이 의도대로 잘 제공되는 것을 확인할 수 있습니다. 
+
 
 ## 아코봇 관리자 페이지 화면 구성
 
-<이미지>
+![질문페이지](https://github.com/CSID-DGU/2023-2-OSSP1-4321-1/assets/121176513/bddb509d-bd5c-43c0-9dfa-2abf7252429c)
+사용자가 챗봇에서 원하는 답변을 얻지 못했을 때, 질문 페이지로 관리자의 답변을 얻을 수 있습니다. 
 
-> 챗봇 만으로 답변이 해결되지 않을 시, 사용자가 직접 질문을 등록할 수 있는 웹페이지 연동 링크를 제공합니다.
-
-<img width="400" alt="Screenshot 2023-06-19 at 16 13 11" src="https://github.com/CSID-DGU/2023-1-OPPS1-ProjectMate-2/assets/114139700/33bb0116-f5bd-4e3d-b4c6-49c4def128e1">
-
-> 위와 같이 사용자는 미해결 질문을 작성할 수 있고, 이에 대해 관리자가 보낸 답변을 메일로 확인할 수 있습니다. 
+![관리자페이지에답변화면](https://github.com/CSID-DGU/2023-2-OSSP1-4321-1/assets/121176513/62a7c63e-4788-46f2-9994-988b05293e10)
+등록된 질문이 질문 조회 게시판에서 조회되고, 관리자는 답변 메일을 작성할 수 있습니다.
 
 ## ©️ 라이센스
 
@@ -96,7 +101,7 @@ SOFTWARE.
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/><img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
 
 ### Library
-<img src="https://img.shields.io/badge/soynlp-0.0.493-brightgreen?style=flat-square&logo=soynlp&logoColor=white"/><img src="https://img.shields.io/badge/pip-23.1.2-blue?style=flat-square&logo=pip&logoColor=white"/><![sbert](https://github.com/CSID-DGU/2023-2-OSSP1-4321-1/assets/121176513/bd7aa88d-bd24-4a0d-be43-77b7a601ba5c)>
+<img src="https://img.shields.io/badge/soynlp-0.0.493-brightgreen?style=flat-square&logo=soynlp&logoColor=white"/><img src="https://img.shields.io/badge/pip-23.1.2-blue?style=flat-square&logo=pip&logoColor=white"/><img src="https://img.shields.io/badge/SBERT-yellow?style=for-the-badge&logo=SBERT&logoColor=white">
 
 ### Communication
 <img src="https://img.shields.io/badge/Notion-white?style=flat-square&logo=Notion&logoColor=black"/><img src="https://img.shields.io/badge/Webex-black?style=flat-square&logo=Webex&logoColor=white"/>
