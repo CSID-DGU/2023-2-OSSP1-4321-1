@@ -1,4 +1,3 @@
-# 인텐트 매칭 테스트 코드
 import csv
 import pickle
 from sentence_transformers import SentenceTransformer
@@ -15,7 +14,7 @@ success = 0
 fail = 0
 
 # embedded intent reader
-with open('..\Akobot\src\main\resources\chatbot\intents.pkl', 'rb') as file:
+with open('intents.pkl', 'rb') as file:
     user_story = pickle.load(file)
 
 # csv reader
@@ -35,17 +34,23 @@ with open(testFile, 'r', encoding='utf-8') as f:
             if(similarity > max_similarity):
                 max_similarity = similarity
                 matched_intent = value[1]
-        if(max_similarity < 0.6):
+        if(max_similarity < 0.65):
             matched_intent = "fallback_default"
 
-        if(line[1] != matched_intent):
-            result = "fail"
-            fail += 1
-        else:
+        if(line[1] == matched_intent):
             result = "pass"
             success += 1
-        output += "\"{0}\",{1},{2},{3},{4}\n".format( result, max_similarity[0][0], line[0], line[1], matched_intent)
-#    print("\"{0}\",{1},{2},{3},{4}\n".format("result", "max similarity", "test case", "input intent", "matched intent"))
+        elif(len(line) > 2):
+            if(line[2] == matched_intent):
+                result = "pass"
+                success += 1
+            else:
+                result = "fail"
+                fail += 1
+        else:
+            result = "fail"
+            fail += 1
+        output += "\"{0}\",{1},{2},{3}\n".format( result, max_similarity[0][0], line, matched_intent)
     print(output)
     end_time = time.time()
     test_time = end_time - start
