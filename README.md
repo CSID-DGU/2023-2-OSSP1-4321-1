@@ -15,13 +15,13 @@ Akobot은 동국대학교 입시정보를 챗봇으로 제공하는 서비스입
 
 [ 프로젝트 소개 ](https://github.com/CSID-DGU/2023-1-OPPS1-ProjectMate-2/blob/main/README.md#-프로젝트-소개) 
 
-[ 아코봇 실행 예시](https://github.com/CSID-DGU/2023-1-OPPS1-ProjectMate-2/blob/main/README.md#-아코봇-실행-예시) 
+[ 아코봇 실행 예시](https://github.com/CSID-DGU/2023-2-OPPS1-4321-1/blob/main/README.md#-아코봇-실행-예시) 
 
-[아코봇 관리자 페이지 화면 구성](https://github.com/CSID-DGU/2023-1-OPPS1-ProjectMate-2/blob/main/README.md#%EF%B8%8F-아코봇-관리자-페이지-화면-구성) 
+[아코봇 관리자 페이지 화면 구성](https://github.com/CSID-DGU/2023-2-OPPS1-4321-1/blob/main/README.md#%EF%B8%8F-아코봇-관리자-페이지-화면-구성) 
 
-[©️ 라이센스](https://github.com/CSID-DGU/2023-1-OPPS1-ProjectMate-2/blob/main/README.md#%EF%B8%8F-라이센스) 
+[©️ 라이센스](https://github.com/CSID-DGU/2023-2-OPPS1-4321-1/blob/main/README.md#%EF%B8%8F-라이센스) 
 
-[기술 스택](https://github.com/CSID-DGU/2023-1-OPPS1-ProjectMate-2/blob/main/README.md#-기술-스택)
+[기술 스택](https://github.com/CSID-DGU/2023-2-OPPS1-4321-1/blob/main/README.md#-기술-스택)
 
 
 ## 팀원 소개
