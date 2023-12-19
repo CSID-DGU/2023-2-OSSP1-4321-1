@@ -22,12 +22,12 @@ with open('/Akobot/src/main/resources/chatbot/intents.pkl', 'rb') as file:
     # }
 
 
-    inputStr = model.encode(usr_input)
+    input_str = model.encode(usr_input)
     max_similarity = -1
     matched_intent = ""
     matched_level = -1
     for key, value in intents.items():
-        similarity = cosine_similarity([inputStr], [value[3]])
+        similarity = cosine_similarity([input_str], [value[3]])
         if (similarity > max_similarity):
             max_similarity = similarity
             matched_intent = value[1]
